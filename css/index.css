@@ -998,15 +998,15 @@ input {
     }
     #check:checked ~ .menu {
         right: 0;
-    }
-    #personas img{
+    } 
+    #encabezado img{
         width: 80vh;
         height: 31.25rem;
     }
-    #personas {
+    #encabezado {
         flex-direction: column;
     }
-    #personas div p {
+    #encabezado div p {
         padding-top: 1.25rem;
     }
     .contenedor3 .contenedor-img img {
@@ -1022,16 +1022,16 @@ input {
     .contenido-banner h1 {
         font-size: 1.875rem;
     }
-    #personas img{
+    #encabezado img{
         width: 60vh;
         height: 25rem;
         
     }
-    #personas {
+    #encabezado {
         flex-direction: column;
         align-items: center;
     }
-    #personas div p {
+    #encabezado div p {
         padding-top: .625rem;
         width: 14.375rem;
     }
@@ -1049,14 +1049,14 @@ input {
         max-width: 5rem;
         padding-top: .1875rem;
     }
-    #personas img{
+    #encabezado img{
         width: 50vh;
         height: 25rem;
     }
-    #personas {
+    #encabezado {
         flex-direction: column;
     }
-    #personas div p {
+    #encabezado div p {
         padding-top: .625rem;
         width: 14.375rem;
     }
