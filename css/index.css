@@ -7,9 +7,9 @@ body{
     background-color: #cccedf;
 }
 header {
-    height: 100px;
+    height: 6.25rem;
     background: linear-gradient(to right, #000c67, #007be5);
-    padding: 0 50px;
+    padding: 0 3.125rem;
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -17,7 +17,7 @@ header {
 }
 .logo {
     text-transform: uppercase;
-    max-width: 150px;
+    max-width: 9.375rem;
     font-weight: 200;
 }
 input {
@@ -28,9 +28,9 @@ input {
     list-style: none;
 }
 .menu ul li {
-    padding: 10px;
-    padding-right: 20px;
-    margin-right: 15px;
+    padding: .625rem;
+    padding-right: 1.25rem;
+    margin-right: .9375rem;
 }
 .menu ul li:hover {
     background: blue;
@@ -39,7 +39,7 @@ input {
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 0 10px;
+    padding: 0 .625rem;
     transition: 0.4s;
 }
 .menu a:hover {
@@ -47,7 +47,7 @@ input {
 }
 .mostrar-menu,
 .esconder-menu {
-    font-size: 30px;
+    font-size: 1.875rem;
     cursor: pointer;
     display: none;
     transition: 0.4s;
@@ -58,13 +58,13 @@ input {
 .mostrar-menu,
 .mostrar-menu:hover,
 .esconder-menu:hover {
-    color: #6cc091;
+    color: #2d27e9;
 }
 #check {
     display: none;
 }
 #banner {
-    padding: 0 50px;
+    padding: 0 3.125rem;
     background-image: url("https://cdn.pixabay.com/photo/2016/05/27/14/33/football-1419954_1280.jpg");
     height: 95vh;
     background-size: cover;
@@ -88,37 +88,37 @@ input {
     justify-content: center;
 }
 .contenido-banner h1 {
-    font-size: 60px;
+    font-size: 3.75rem;
     font-weight: bold 400;
-    padding: 10px 0px;
+    padding: .625rem 0px;
     color: #eee;
 }
 .contenido-banner p {
     font-weight: 600;
     color: #0b60af;
-    font-size: 25px;
+    font-size: 1.5625rem;
 }
 #personas {
-    padding: 50px 50px;
+    padding: 3.125rem 3.125rem;
     display: flex;
     justify-content: center;
     text-align: center;
 }
 #personas img {
     width: 100vh;
-    height: 700px;
+    height: 43.75rem;
     box-shadow: 0 0 6px rgba(0, 0, 0, .9);
-    border-radius: 10px;
+    border-radius: .625rem;
 }
 #personas div {
-    padding: 30px 30px;
+    padding: 1.875rem 1.875rem;
 }
 
 #personas div p {
     color: #22223b87;
-    font-size: 18px;
-    padding: 20px;
-    padding-top: 200px;
+    font-size: 1.125rem;
+    padding: 1.25rem;
+    padding-top: 12.5rem;
 }
 .section3 {
     margin: 0;
@@ -140,48 +140,48 @@ input {
     margin: 0;
     padding: 0;
     margin-top: 0px;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 .contenedor3 .contenedor-img img {
     object-fit: cover;
-    width: 450px;
-    height: 500px;
+    width: 28.125rem;
+    height: 31.25rem;
     display: block;
-    margin-bottom: 15px;
+    margin-bottom: .9375rem;
     margin: 0;
     padding: 0;
-    margin-top: 15px;
+    margin-top: .9375rem;
     box-shadow: 0 0 6px rgba(0, 0, 0, .9);
     cursor: pointer;
 }
 .figcaption {
     text-align: center;
-    margin-top: 5px;
-    padding-top: 8px;
+    margin-top: .3125rem;
+    padding-top: .5rem;
     font-size: 27px;
 }
 .footer {
-    margin-top: 20px;
+    margin-top: 1.25rem;
     text-align: center;
     background-color: #2b803542;
 }
 .contenedor-redes {
-    margin: 10px;
+    margin: .625rem;
     text-align: center;
-    font-size: 40px;
+    font-size: 2.5rem;
     background-color: #bbb1cc42;
-    padding: 10px;
+    padding: .625rem;
 }
 .contenedor-redes a {
-    padding: 20px;
+    padding: 1.25rem;
 }
 .contenedor-redes i:hover {
     color: #999dc2;
     transform: translate(2s);
 }
 .creado {
-    font-size: 20px;
-    padding-top: 8px;
+    font-size: 1.25rem;
+    padding-top: .5rem;
 }
 /*seccion real madrid*/
 * {
@@ -193,9 +193,9 @@ body {
     background-color: rgb(210, 208, 206);
 }
 .header-r {
-    height: 100px;
+    height: 6.25rem;
     background: linear-gradient(to right,  #e8ebed, #8a8b96);
-    padding: 0 50px;
+    padding: 0 3.125rem;
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -203,8 +203,8 @@ body {
 }
 .logo-r {
     text-transform: uppercase;
-    max-width: 150px;
-    height: 80px;
+    max-width: 9.375rem;
+    height: 5rem;
     font-weight: 200;
 }
 input {
@@ -215,9 +215,9 @@ input {
     list-style: none;
 }
 .menu-r ul li {
-    padding: 10px;
-    padding-right: 20px;
-    margin-right: 15px;
+    padding: .625rem;
+    padding-right: 1.25rem;
+    margin-right: .9375rem;
 }
 .menu-r ul li:hover {
     background: rgb(141, 141, 163);
@@ -226,7 +226,7 @@ input {
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 0 10px;
+    padding: 0 .625rem;
     transition: 0.4s;
 }
 .menu-r a:hover {
@@ -234,7 +234,7 @@ input {
 }
 .mostrar-menu,
 .esconder-menu {
-    font-size: 30px;
+    font-size: 1.875rem;
     cursor: pointer;
     display: none;
     transition: 0.4s;
@@ -251,7 +251,7 @@ input {
     display: none;
 }
 #inicio-r {
-    padding: 0 50px;
+    padding: 0 3.125rem;
     background-image: url("https://i.pinimg.com/564x/e1/56/79/e15679c85cd964f85602beb0d38f695d.jpg");
     height: 100vh;
     background-size: cover;
@@ -276,34 +276,34 @@ input {
 .contenido-banner-r h1 {
     font-size: 40px;
     font-weight: bold 400;
-    padding: 10px 0px;
+    padding: .625rem 0px;
     color: #9898bd;
 }
 
 #champions-r {
-    padding: 50px 50px;
+    padding: 3.125rem 3.125rem;
     display: flex;
     justify-content: center;
     text-align: center;
 }
 #champions-r img {
     width: 100vh;
-    height: 700px;
+    height: 43.75rem;
     box-shadow: 0 0 6px rgba(0, 0, 0, .9);
-    border-radius: 10px;
+    border-radius: .625rem;
 }
 #champions-r div {
-    padding: 30px 30px;
+    padding: 1.875rem 1.875rem;
 }
 
 #champions-r div p {
     color: #22223b87;
-    font-size: 20px;
-    padding: 20px;
-    padding-top: 200px;
+    font-size: 1.25rem;
+    padding: 1.25rem;
+    padding-top: 12.5rem;
 }
 #liga-r {
-    padding: 50px 50px;
+    padding: 3.125rem 3.125rem;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -311,64 +311,64 @@ input {
 #liga-r img {
     display: flex;
     width: 100vh;
-    height: 700px;
+    height: 43.75rem;
     box-shadow: 0 0 6px rgba(0, 0, 0, .9);
-    border-radius: 10px;
+    border-radius: .625rem;
 }
 #liga-r div {
-    padding: 30px 30px;
+    padding: 1.875rem 1.875rem;
 }
 
 #liga-r div p {
     color: #22223b87;
-    font-size: 18px;
-    padding: 20px;
-    padding-top: 200px;
+    font-size: 1.125rem;
+    padding: 1.25rem;
+    padding-top: 12.5rem;
 }
 #mundial-r {
-    padding: 50px 50px;
+    padding: 3.125rem 3.125rem;
     display: flex;
     justify-content: center;
     text-align: center;
 }
 #mundial-r img {
     width: 100vh;
-    height: 700px;
+    height: 43.75rem;
     box-shadow: 0 0 6px rgba(0, 0, 0, .9);
-    border-radius: 10px;
+    border-radius: .625rem;
 }
 #mundial-r div {
-    padding: 30px 30px;
+    padding: 1.875rem 1.875rem;
 }
 
 #mundial-r div p {
     color: #22223b87;
-    font-size: 18px;
-    padding: 20px;
-    padding-top: 200px;
+    font-size: 1.125rem;
+    padding: 1.25rem;
+    padding-top: 12.5rem;
 }
 .footer-r {
-    margin-top: 20px;
+    margin-top: 1.25rem;
     text-align: center;
     background-color: #50585442;
 }
 .contenedor-redes-r {
-    margin: 10px;
+    margin: .625rem;
     text-align: center;
-    font-size: 40px;
+    font-size: 2.5rem;
     background-color: #51535242;
-    padding: 10px;
+    padding: .625rem;
 }
 .contenedor-redes-r a {
-    padding: 20px;
+    padding: 1.25rem;
 }
 .contenedor-redes-r i:hover {
     color: #41434d;
     transform: translate(2s);
 }
 .creado {
-    font-size: 20px;
-    padding-top: 8px;
+    font-size: 1.25rem;
+    padding-top: .5rem;
 }
 /*seccion Barcelona*/
 * {
@@ -380,9 +380,9 @@ body {
     background-color: rgb(210, 208, 206);
 }
 .header-bar {
-    height: 100px;
+    height: 6.25rem;
     background: linear-gradient(to right,  #bc68bf, #b58542);
-    padding: 0 50px;
+    padding: 0 3.125rem;
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -390,8 +390,8 @@ body {
 }
 .logo-bar {
     text-transform: uppercase;
-    max-width: 150px;
-    height: 80px;
+    max-width: 9.375rem;
+    height: 5rem;
     font-weight: 200;
 }
 input {
@@ -402,9 +402,9 @@ input {
     list-style: none;
 }
 .menu-bar ul li {
-    padding: 10px;
-    padding-right: 20px;
-    margin-right: 15px;
+    padding: .625rem;
+    padding-right: 1.25rem;
+    margin-right: .9375rem;
 }
 .menu-bar ul li:hover {
     background: rgb(213, 111, 143);
@@ -413,7 +413,7 @@ input {
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 0 10px;
+    padding: 0 .625rem;
     transition: 0.4s;
 }
 .menu-bar a:hover {
@@ -421,7 +421,7 @@ input {
 }
 .mostrar-menu,
 .esconder-menu {
-    font-size: 30px;
+    font-size: 1.875rem;
     cursor: pointer;
     display: none;
     transition: 0.4s;
@@ -438,7 +438,7 @@ input {
     display: none;
 }
 #inicio-bar {
-    padding: 0 50px;
+    padding: 0 3.125rem;
     background-image: url("https://i.pinimg.com/564x/71/c2/be/71c2be9d4c687e8ee2e5595003c653ab.jpg");
     height: 100vh;
     background-size: cover;
@@ -461,36 +461,36 @@ input {
     justify-content: center;
 }
 .contenido-banner-bar h1 {
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: bold 400;
-    padding: 10px 0px;
+    padding: .625rem 0px;
     color: #9898bd;
 }
 
 #champions-bar {
-    padding: 50px 50px;
+    padding: 3.125rem 3.125rem;
     display: flex;
     justify-content: center;
     text-align: center;
 }
 #champions-bar img {
     width: 100vh;
-    height: 700px;
+    height: 43.75rem;
     box-shadow: 0 0 6px rgba(0, 0, 0, .9);
-    border-radius: 10px;
+    border-radius: .625rem;
 }
 #champions-bar div {
-    padding: 30px 30px;
+    padding: 1.875rem 1.875rem;
 }
 
 #champions-bar div p {
     color: #22223b87;
-    font-size: 20px;
-    padding: 20px;
-    padding-top: 200px;
+    font-size: 1.25rem;
+    padding: 1.25rem;
+    padding-top: 12.5rem;
 }
 #liga-bar {
-    padding: 50px 50px;
+    padding: 3.125rem 3.125rem;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -498,64 +498,64 @@ input {
 #liga-bar img {
     display: flex;
     width: 100vh;
-    height: 700px;
+    height: 43.75rem;
     box-shadow: 0 0 6px rgba(0, 0, 0, .9);
-    border-radius: 10px;
+    border-radius: .625rem;
 }
 #liga-bar div {
-    padding: 30px 30px;
+    padding: 1.875rem 1.875rem;
 }
 
 #liga-bar div p {
     color: #22223b87;
-    font-size: 18px;
-    padding: 20px;
-    padding-top: 200px;
+    font-size: 1.125rem;
+    padding: 1.25rem;
+    padding-top: 12.5rem;
 }
 #mundial-bar {
-    padding: 50px 50px;
+    padding: 3.125rem 3.125rem;
     display: flex;
     justify-content: center;
     text-align: center;
 }
 #mundial-bar img {
     width: 100vh;
-    height: 700px;
+    height: 43.75rem;
     box-shadow: 0 0 6px rgba(0, 0, 0, .9);
-    border-radius: 10px;
+    border-radius: .625rem;
 }
 #mundial-bar div {
-    padding: 30px 30px;
+    padding: 1.875rem 1.875rem;
 }
 
 #mundial-bar div p {
     color: #22223b87;
-    font-size: 18px;
-    padding: 20px;
-    padding-top: 200px;
+    font-size: 1.125rem;
+    padding: 1.25rem;
+    padding-top: 12.5rem;
 }
 .footer-bar {
-    margin-top: 20px;
+    margin-top: 1.25rem;
     text-align: center;
     background-color: #ae0a4942;
 }
 .contenedor-redes-bar {
-    margin: 10px;
+    margin: .625rem;
     text-align: center;
-    font-size: 40px;
+    font-size: 2.5rem;
     background-color: #79072b42;
-    padding: 10px;
+    padding: .625rem;
 }
 .contenedor-redes-bar a {
-    padding: 20px;
+    padding: 1.25rem;
 }
 .contenedor-redes-bar i:hover {
     color: #5f3e04;
     transform: translate(2s);
 }
 .creado {
-    font-size: 20px;
-    padding-top: 8px;
+    font-size: 1.25rem;
+    padding-top: .5rem;
 }
 /*seccion Liverpool*/
 * {
@@ -567,9 +567,9 @@ body {
     background-color: rgb(210, 208, 206);
 }
 .header-liv {
-    height: 100px;
+    height: 6.25rem;
     background: linear-gradient(to right,  #900505, #ff0202);
-    padding: 0 50px;
+    padding: 0 3.125rem;
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -577,8 +577,8 @@ body {
 }
 .logo-liv {
     text-transform: uppercase;
-    max-width: 150px;
-    height: 80px;
+    max-width: 9.375rem;
+    height: 5rem;
     font-weight: 200;
 }
 input {
@@ -589,9 +589,9 @@ input {
     list-style: none;
 }
 .menu-liv ul li {
-    padding: 10px;
-    padding-right: 20px;
-    margin-right: 15px;
+    padding: .625rem;
+    padding-right: 1.25rem;
+    margin-right: .9375rem;
 }
 .menu-liv ul li:hover {
     background: rgb(232, 44, 81);
@@ -600,7 +600,7 @@ input {
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 0 10px;
+    padding: 0 .625rem;
     transition: 0.4s;
 }
 .menu-liv a:hover {
@@ -608,7 +608,7 @@ input {
 }
 .mostrar-menu,
 .esconder-menu {
-    font-size: 30px;
+    font-size: 1.875rem;
     cursor: pointer;
     display: none;
     transition: 0.4s;
@@ -619,13 +619,13 @@ input {
 .mostrar-menu,
 .mostrar-menu:hover,
 .esconder-menu:hover {
-    color: #6cc091;
+    color: #e87c2a;
 }
 #check {
     display: none;
 }
 #inicio-liv {
-    padding: 0 50px;
+    padding: 0 3.125rem;
     background-image: url("https://i.pinimg.com/564x/0f/9e/94/0f9e949d0477d8e304e2fe57429ccf02.jpg");
     height: 100vh;
     background-size: cover;
@@ -648,36 +648,36 @@ input {
     justify-content: center;
 }
 .contenido-banner-liv h1 {
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: bold 400;
-    padding: 10px 0px;
+    padding: .625rem 0px;
     color: #9898bd;
 }
 
 #champions-liv {
-    padding: 50px 50px;
+    padding: 3.125rem 3.125rem;
     display: flex;
     justify-content: center;
     text-align: center;
 }
 #champions-liv img {
     width: 100vh;
-    height: 700px;
+    height: 43.75rem;
     box-shadow: 0 0 6px rgba(0, 0, 0, .9);
-    border-radius: 10px;
+    border-radius: .625rem;
 }
 #champions-liv div {
-    padding: 30px 30px;
+    padding: 1.875rem 1.875rem;
 }
 
 #champions-liv div p {
     color: #22223b87;
-    font-size: 20px;
-    padding: 20px;
-    padding-top: 200px;
+    font-size: 1.25rem;
+    padding: 1.25rem;
+    padding-top: 12.5rem;
 }
 #liga-liv {
-    padding: 50px 50px;
+    padding: 3.125rem 3.125rem;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -685,64 +685,64 @@ input {
 #liga-liv img {
     display: flex;
     width: 100vh;
-    height: 700px;
+    height: 43.75rem;
     box-shadow: 0 0 6px rgba(0, 0, 0, .9);
-    border-radius: 10px;
+    border-radius: .625rem;
 }
 #liga-liv div {
-    padding: 30px 30px;
+    padding: 1.875rem 1.875rem;
 }
 
 #liga-liv div p {
     color: #22223b87;
-    font-size: 18px;
-    padding: 20px;
-    padding-top: 200px;
+    font-size: 1.125rem;
+    padding: 1.25rem;
+    padding-top: 12.5rem;
 }
 #mundial-liv {
-    padding: 50px 50px;
+    padding: 3.125rem 3.125rem;
     display: flex;
     justify-content: center;
     text-align: center;
 }
 #mundial-liv img {
     width: 100vh;
-    height: 700px;
+    height: 43.75rem;
     box-shadow: 0 0 6px rgba(0, 0, 0, .9);
-    border-radius: 10px;
+    border-radius: .625rem;
 }
 #mundial-liv div {
-    padding: 30px 30px;
+    padding: 1.875rem 1.875rem;
 }
 
 #mundial-liv div p {
     color: #22223b87;
-    font-size: 18px;
-    padding: 20px;
-    padding-top: 200px;
+    font-size: 1.125rem;
+    padding: 1.25rem;
+    padding-top: 12.5rem;
 }
 .footer-liv {
-    margin-top: 20px;
+    margin-top: 1.25rem;
     text-align: center;
     background-color: #971e1e42;
 }
 .contenedor-redes-liv {
-    margin: 10px;
+    margin: .625rem;
     text-align: center;
-    font-size: 40px;
+    font-size: 2.5rem;
     background-color: #b7232342;
-    padding: 10px;
+    padding: .625rem;
 }
 .contenedor-redes-liv a {
-    padding: 20px;
+    padding: 1.25rem;
 }
 .contenedor-redes-liv i:hover {
     color: #fc0404;
     transform: translate(2s);
 }
 .creado {
-    font-size: 20px;
-    padding-top: 8px;
+    font-size: 1.25rem;
+    padding-top: .5rem;
 }
 /*seccion Manchester City*/
 * {
@@ -754,9 +754,9 @@ body {
     background-color: rgb(210, 208, 206);
 }
 .header-man {
-    height: 100px;
+    height: 6.25rem;
     background: linear-gradient(to right,  #58b6db, #14cbeb);
-    padding: 0 50px;
+    padding: 0 3.125rem;
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -764,8 +764,8 @@ body {
 }
 .logo-man {
     text-transform: uppercase;
-    max-width: 150px;
-    height: 80px;
+    max-width: 9.375rem;
+    height: 5rem;
     font-weight: 200;
 }
 input {
@@ -776,9 +776,9 @@ input {
     list-style: none;
 }
 .menu-man ul li {
-    padding: 10px;
-    padding-right: 20px;
-    margin-right: 15px;
+    padding: .625rem;
+    padding-right: 1.25rem;
+    margin-right: .9375rem;
 }
 .menu-man ul li:hover {
     background: rgb(27, 211, 228);
@@ -787,7 +787,7 @@ input {
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 0 10px;
+    padding: 0 .625rem;
     transition: 0.4s;
 }
 .menu-man a:hover {
@@ -795,7 +795,7 @@ input {
 }
 .mostrar-menu,
 .esconder-menu {
-    font-size: 30px;
+    font-size: 1.875rem;
     cursor: pointer;
     display: none;
     transition: 0.4s;
@@ -806,13 +806,13 @@ input {
 .mostrar-menu,
 .mostrar-menu:hover,
 .esconder-menu:hover {
-    color: #6cc091;
+    color: #35ccd7;
 }
 #check {
     display: none;
 }
 #inicio-man {
-    padding: 0 50px;
+    padding: 0 3.125rem;
     background-image: url("https://i.pinimg.com/564x/6a/f4/d5/6af4d5c8c06d61d4ff619ddeaa478772.jpg");
     height: 100vh;
     background-size: cover;
@@ -835,23 +835,23 @@ input {
     justify-content: center;
 }
 .contenido-banner-man h1 {
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: bold 400;
-    padding: 10px 0px;
+    padding: .625rem 0px;
     color: #9898bd;
 }
 
 #champions-man {
-    padding: 50px 50px;
+    padding: 3.125rem 3.125rem;
     display: flex;
     justify-content: center;
     text-align: center;
 }
 #champions-man img {
     width: 100vh;
-    height: 700px;
+    height: 43.75rem;
     box-shadow: 0 0 6px rgba(0, 0, 0, .9);
-    border-radius: 10px;
+    border-radius: .625rem;
 }
 #champions-man div {
     padding: 30px 30px;
@@ -859,12 +859,12 @@ input {
 
 #champions-man div p {
     color: #22223b87;
-    font-size: 20px;
-    padding: 20px;
-    padding-top: 200px;
+    font-size: 1.25rem;
+    padding: 1.25rem;
+    padding-top: 12.5rem;
 }
 #liga-man {
-    padding: 50px 50px;
+    padding: 3.125rem 3.125rem;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -872,19 +872,19 @@ input {
 #liga-man img {
     display: flex;
     width: 100vh;
-    height: 700px;
+    height: 43.75rem;
     box-shadow: 0 0 6px rgba(0, 0, 0, .9);
-    border-radius: 10px;
+    border-radius: .625rem;
 }
 #liga-man div {
-    padding: 30px 30px;
+    padding: 1.875rem 1.875rem;
 }
 
 #liga-man div p {
     color: #22223b87;
-    font-size: 18px;
-    padding: 20px;
-    padding-top: 200px;
+    font-size: 1.125rem;
+    padding: 1.25rem;
+    padding-top: 12.5rem;
 }
 #mundial-man {
     padding: 50px 50px;
@@ -894,42 +894,42 @@ input {
 }
 #mundial-man img {
     width: 100vh;
-    height: 700px;
+    height: 43.75rem;
     box-shadow: 0 0 6px rgba(0, 0, 0, .9);
-    border-radius: 10px;
+    border-radius: .625rem;
 }
 #mundial-man div {
-    padding: 30px 30px;
+    padding: 1.875rem 1.875rem;
 }
 
 #mundial-man div p {
     color: #22223b87;
-    font-size: 18px;
-    padding: 20px;
-    padding-top: 200px;
+    font-size: 1.125rem;
+    padding: 1.25rem;
+    padding-top: 12.5rem;
 }
 .footer-man {
-    margin-top: 20px;
+    margin-top: 1.25rem;
     text-align: center;
     background-color: #207dba42;
 }
 .contenedor-redes-man {
-    margin: 10px;
+    margin: .625rem;
     text-align: center;
-    font-size: 40px;
+    font-size: 2.5rem;
     background-color: #08718642;
-    padding: 10px;
+    padding: .625rem;
 }
 .contenedor-redes-man a {
-    padding: 20px;
+    padding: 1.25rem;
 }
 .contenedor-redes-man i:hover {
     color: #04e6ff;
     transform: translate(2s);
 }
 .creado {
-    font-size: 20px;
-    padding-top: 8px;
+    font-size: 1.25rem;
+    padding-top: .5rem;
 }
 /*seccion Bayern Munich*/
 * {
@@ -941,9 +941,9 @@ body {
     background-color: rgb(210, 208, 206);
 }
 .header-bay {
-    height: 100px;
+    height: 6.25rem;
     background: linear-gradient(to right,  #d74b4b, #bf0505);
-    padding: 0 50px;
+    padding: 0 3.125rem;
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -951,8 +951,8 @@ body {
 }
 .logo-bay {
     text-transform: uppercase;
-    max-width: 150px;
-    height: 80px;
+    max-width: 9.375rem;
+    height: 5rem;
     font-weight: 200;
 }
 input {
@@ -963,9 +963,9 @@ input {
     list-style: none;
 }
 .menu-bay ul li {
-    padding: 10px;
-    padding-right: 20px;
-    margin-right: 15px;
+    padding: .625rem;
+    padding-right: 1.25rem;
+    margin-right: .9375rem;
 }
 .menu-bay ul li:hover {
     background: rgb(232, 44, 81);
@@ -974,7 +974,7 @@ input {
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 0 10px;
+    padding: 0 .625rem;
     transition: 0.4s;
 }
 .menu-bay a:hover {
@@ -982,7 +982,7 @@ input {
 }
 .mostrar-menu,
 .esconder-menu {
-    font-size: 30px;
+    font-size: 1.875rem;
     cursor: pointer;
     display: none;
     transition: 0.4s;
@@ -993,7 +993,7 @@ input {
 .mostrar-menu,
 .mostrar-menu:hover,
 .esconder-menu:hover {
-    color: #6cc091;
+    color: #c42323;
 }
 #check {
     display: none;
@@ -1022,36 +1022,36 @@ input {
     justify-content: center;
 }
 .contenido-banner-bay h1 {
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: bold 400;
-    padding: 10px 0px;
+    padding: .625rem 0px;
     color: #9898bd;
 }
 
 #champions-bay {
-    padding: 50px 50px;
+    padding: 3.125rem 3.125rem;
     display: flex;
     justify-content: center;
     text-align: center;
 }
 #champions-bay img {
     width: 100vh;
-    height: 700px;
+    height: 43.75rem;
     box-shadow: 0 0 6px rgba(0, 0, 0, .9);
-    border-radius: 10px;
+    border-radius: .625rem;
 }
 #champions-bay div {
-    padding: 30px 30px;
+    padding: 1.875rem 1.875rem;
 }
 
 #champions-bay div p {
     color: #22223b87;
-    font-size: 20px;
-    padding: 20px;
-    padding-top: 200px;
+    font-size: 1.25rem;
+    padding: 1.25rem;
+    padding-top: 12.5rem;
 }
 #liga-bay {
-    padding: 50px 50px;
+    padding: 3.125rem 3.125rem;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -1059,71 +1059,71 @@ input {
 #liga-bay img {
     display: flex;
     width: 100vh;
-    height: 700px;
+    height: 43.75rem;
     box-shadow: 0 0 6px rgba(0, 0, 0, .9);
-    border-radius: 10px;
+    border-radius: .625rem;
 }
 #liga-bay div {
-    padding: 30px 30px;
+    padding: 1.875rem 1.875rem;
 }
 
 #liga-bay div p {
     color: #22223b87;
-    font-size: 18px;
-    padding: 20px;
-    padding-top: 200px;
+    font-size: 1.125rem;
+    padding: 1.25rem;
+    padding-top: 12.5rem;
 }
 #mundial-bay {
-    padding: 50px 50px;
+    padding: 3.125rem 3.125rem;
     display: flex;
     justify-content: center;
     text-align: center;
 }
 #mundial-bay img {
     width: 100vh;
-    height: 700px;
+    height: 43.75rem;
     box-shadow: 0 0 6px rgba(0, 0, 0, .9);
-    border-radius: 10px;
+    border-radius: .625rem;
 }
 #mundial-bay div {
-    padding: 30px 30px;
+    padding: 1.875rem 1.875rem;
 }
 
 #mundial-bay div p {
     color: #22223b87;
-    font-size: 18px;
-    padding: 20px;
-    padding-top: 200px;
+    font-size: 1.125rem;
+    padding: 1.25rem;
+    padding-top: 12.5rem;
 }
 .footer-bay {
-    margin-top: 20px;
+    margin-top: 1.25rem;
     text-align: center;
     background-color: #ea490f42;
 }
 .contenedor-redes-bay {
-    margin: 10px;
+    margin: .625rem;
     text-align: center;
-    font-size: 40px;
+    font-size: 2.5rem;
     background-color: #f13b0e42;
-    padding: 10px;
+    padding: .625rem;
 }
 .contenedor-redes-bay a {
-    padding: 20px;
+    padding: 1.25rem;
 }
 .contenedor-redes-bay i:hover {
     color: #f7290e;
     transform: translate(2s);
 }
 .creado {
-    font-size: 20px;
-    padding-top: 8px;
+    font-size: 1.25rem;
+    padding-top: .5rem;
 }
 
 /* seccion responsive pagina principal*/
 @media(max-width: 768px) {
     .logo {
         max-width: 7.5rem;
-        padding-top: 3px;
+        padding-top: .1875rem;
     }
     .mostrar-menu,
     .esconder-menu {
@@ -1149,42 +1149,42 @@ input {
     }
     .menu a {
         display: block;
-        padding: 15px;
+        padding: .9375rem;
     }
     .esconder-menu {
         position: absolute;
-        top: 40px;
-        right: 40px;
+        top: 2.5rem;
+        right: 2.5rem;
     }
     #check:checked ~ .menu {
         right: 0;
     }
     #personas img{
         width: 80vh;
-        height: 500px;
+        height: 31.25rem;
     }
     #personas {
         flex-direction: column;
     }
     #personas div p {
-        padding-top: 20px;
+        padding-top: 1.25rem;
     }
     .contenedor3 .contenedor-img img {
         width: 100vh;
-        height: 500px;
+        height: 31.25rem;
     }
 }
 @media(max-width: 425px){
     .logo {
-        max-width: 90px;
-        padding-top: 3px;
+        max-width: 5.625rem;
+        padding-top: .1875rem;
     }
     .contenido-banner h1 {
         font-size: 1.875rem;
     }
     #personas img{
         width: 60vh;
-        height: 400px;
+        height: 25rem;
         
     }
     #personas {
@@ -1192,12 +1192,12 @@ input {
         align-items: center;
     }
     #personas div p {
-        padding-top: 10px;
-        width: 230px;
+        padding-top: .625rem;
+        width: 14.375rem;
     }
     .contenedor3 .contenedor-img img {
         width: 65vh;
-        height: 400px;
+        height: 25rem;
     }
     .contenedor-redes a i {
         width: 1.875rem;
@@ -1206,26 +1206,26 @@ input {
 }
 @media(max-width: 320px){
     .logo {
-        max-width: 80px;
-        padding-top: 3px;
+        max-width: 5rem;
+        padding-top: .1875rem;
     }
     #personas img{
         width: 50vh;
-        height: 400px;
+        height: 25rem;
     }
     #personas {
         flex-direction: column;
     }
     #personas div p {
-        padding-top: 10px;
-        width: 230px;
+        padding-top: .625rem;
+        width: 14.375rem;
     }
     .contenedor3 .contenedor-img img {
         width: 50vh;
-        height: 300px;
+        height: 18.75rem;
     }
     .contenedor-redes a {
-        padding: 5px;
+        padding: .3125rem;
     }
 
 }
@@ -1234,8 +1234,8 @@ input {
 
 @media(max-width: 768px){
     .logo-r {
-        max-width: 90px;
-        padding-top: 3px;
+        max-width: 5.625rem;
+        padding-top: .1875rem;
     }
     .mostrar-menu,
     .esconder-menu {
@@ -1252,7 +1252,7 @@ input {
         right: -100%;
         top: 0;
         text-align: center;
-        padding: 100px 0px;
+        padding: 6.25rem 0px;
         z-index: 100;
         transition: 0.8s;
     }
@@ -1261,12 +1261,12 @@ input {
     }
     .menu-r a {
         display: block;
-        padding: 15px;
+        padding: .9375rem;
     }
     .esconder-menu {
         position: absolute;
-        top: 40px;
-        right: 40px;
+        top: 2.5rem;
+        right: 2.5rem;
     }
     #check:checked ~ .menu-r {
         right: 0;
@@ -1277,10 +1277,10 @@ input {
     }
     #champions-r img{
         width: 100vh;
-        height: 600px;
+        height: 37.5rem;
     }
     #champions-r div p {
-        padding-top: 20px;
+        padding-top: 1.25rem;
     }
     #liga-r {
         flex-direction: column;
@@ -1288,10 +1288,10 @@ input {
     }
     #liga-r img{
         width: 100vh;
-        height: 600px;
+        height: 37.5rem;
     }
     #liga-r div p {
-        padding-top: 20px;
+        padding-top: 1.25rem;
     }
     #mundial-r {
         flex-direction: column;
@@ -1299,16 +1299,16 @@ input {
     }
     #mundial-r img{
         width: 100vh;
-        height: 600px;
+        height: 37.5rem;
     }
     #mundial-r div p {
-        padding-top: 20px;
+        padding-top: 1.25rem;
     }
 
 }
 @media(max-width: 425px){
     .logo-r {
-        max-width: 90px;
+        max-width: 5.625rem;
         padding-top: 3px;
     }
     #champions-r {
@@ -1317,43 +1317,43 @@ input {
     }
     #champions-r img{
         width: 65vh;
-        height: 500px;
+        height: 31.25rem;
     }
     #champions-r div p {
-        padding-top: 10px;
-        width: 230px;
+        padding-top: .625rem;
+        width: 14.375rem;
     }
     #liga-r {
         flex-direction: column;
     }
     #liga-r img{
         width: 65vh;
-        height: 500px;
+        height: 31.25rem;
     }
     #liga-r div p {
-        padding-top: 10px;
-        width: 230px;
+        padding-top: .625rem;
+        width: 14.375rem;
     }
     #mundial-r {
         flex-direction: column;
     }
     #mundial-r img{
         width: 65vh;
-        height: 500px;
+        height: 31.25rem;
     }
     #mundial-r div p {
-        padding-top: 10px;
+        padding-top: .625rem;
         width: 230px;
     }
     .contenedor-redes-r a {
-        padding: 5px;
+        padding: .3125rem;
     }
 
 }
 
 @media(max-width: 320px){
     .logo-r {
-        max-width: 80px;
+        max-width: 5rem;
         padding-top: 3px;
     }
     #champions-r {
@@ -1361,37 +1361,37 @@ input {
     }
     #champions-r img{
         width: 50vh;
-        height: 400px;
+        height: 25rem;
     }
     #champions-r div p {
-        padding-top: 10px;
-        width: 230px;
+        padding-top: .625rem;
+        width: 14.375rem;
     }
     #liga-r {
         flex-direction: column;
     }
     #liga-r img{
         width: 50vh;
-        height: 400px;
+        height: 25rem;
     }
     #liga-r div p {
-        padding-top: 10px;
-        width: 230px;
+        padding-top: .625rem;
+        width: 14.375rem;
     }
     #mundial-r {
         flex-direction: column;
     }
     #mundial-r img{
         width: 50vh;
-        height: 400px;
+        height: 25rem;
     }
     #mundial-r div p {
-        padding-top: 10px;
-        width: 230px;
+        padding-top: .625rem;
+        width: 14.375rem;
     }
     .contenedor-redes-r a {
-        width: 20px;
-        padding: 5px;
+        width: 1.25rem;
+        padding: .3125rem;
         gap: 3px;
     }
 
@@ -1400,8 +1400,8 @@ input {
 /* seccion responsive barcelona*/
 @media(max-width: 768px){
     .logo-bar {
-        max-width: 120px;
-        padding-top: 3px;
+        max-width: 7.5rem;
+        padding-top: .1875rem;
     }
     .mostrar-menu,
     .esconder-menu {
@@ -1418,7 +1418,7 @@ input {
         right: -100%;
         top: 0;
         text-align: center;
-        padding: 100px 0px;
+        padding: 6.25rem 0px;
         z-index: 100;
         transition: 0.8s;
     }
@@ -1427,12 +1427,12 @@ input {
     }
     .menu-bar a {
         display: block;
-        padding: 15px;
+        padding: .9375rem;
     }
     .esconder-menu {
         position: absolute;
-        top: 40px;
-        right: 40px;
+        top: 2.5rem;
+        right: 2.5rem;
     }
     #check:checked ~ .menu-bar {
         right: 0;
@@ -1443,10 +1443,10 @@ input {
     }
     #champions-bar img{
         width: 100vh;
-        height: 600px;
+        height: 37.5rem;
     }
     #champions-bar div p {
-        padding-top: 20px;
+        padding-top: 1.25rem;
     }
     #liga-bar {
         flex-direction: column;
@@ -1454,10 +1454,10 @@ input {
     }
     #liga-bar img{
         width: 100vh;
-        height: 600px;
+        height: 37.5rem;
     }
     #liga-bar div p {
-        padding-top: 20px;
+        padding-top: 1.25rem;
     }
     #mundial-bar {
         flex-direction: column;
@@ -1465,10 +1465,10 @@ input {
     }
     #mundial-bar img{
         width: 100vh;
-        height: 600px;
+        height: 37.5rem;
     }
     #mundial-bar div p {
-        padding-top: 20px;
+        padding-top: 1.25rem;
     }
 
 }
@@ -1482,33 +1482,33 @@ input {
     }
     #champions-bar img{
         width: 65vh;
-        height: 500px;
+        height: 31.25rem;
     }
     #champions-bar div p {
-        padding-top: 10px;
-        width: 230px;
+        padding-top: .625rem;
+        width: 14.375rem;
     }
     #liga-bar {
         flex-direction: column;
     }
     #liga-bar img{
         width: 65vh;
-        height: 500px;
+        height: 31.25rem;
     }
     #liga-bar div p {
-        padding-top: 10px;
-        width: 230px;
+        padding-top: .625rem;
+        width: 14.375rem;
     }
     #mundial-bar {
         flex-direction: column;
     }
     #mundial-bar img{
         width: 65vh;
-        height: 500px;
+        height: 31.25rem;
     }
     #mundial-bar div p {
-        padding-top: 10px;
-        width: 230px;
+        padding-top: .625rem;
+        width: 14.375rem;
     }
     .contenedor-redes-bar a {
         padding: 5px;
@@ -1518,7 +1518,7 @@ input {
 
 @media(max-width: 320px){
     .logo-bar {
-        max-width: 80px;
+        max-width: 5rem;
         padding-top: 3px;
     }
     #champions-bar {
@@ -1526,36 +1526,36 @@ input {
     }
     #champions-bar img{
         width: 50vh;
-        height: 400px;
+        height: 25rem;
     }
     #champions-bar div p {
-        padding-top: 10px;
-        width: 230px;
+        padding-top: .625rem;
+        width: 14.375rem;
     }
     #liga-bar {
         flex-direction: column;
     }
     #liga-bar img{
         width: 50vh;
-        height: 400px;
+        height: 25rem;
     }
     #liga-r div p {
-        padding-top: 10px;
-        width: 230px;
+        padding-top: .625rem;
+        width: 14.375rem;
     }
     #mundial-bar {
         flex-direction: column;
     }
     #mundial-bar img{
         width: 50vh;
-        height: 400px;
+        height: 25rem;
     }
     #mundial-bar div p {
-        padding-top: 10px;
-        width: 230px;
+        padding-top: .625rem;
+        width: 14.375rem;
     }
     .contenedor-redes-bar a {
-        width: 20px;
+        width: 1.25rem;
         padding: 5px;
         gap: 3px;
     }
@@ -1565,7 +1565,7 @@ input {
 /* seccion responsive liverpool*/
 @media(max-width: 768px){
     .logo-liv {
-        max-width: 120px;
+        max-width: 7.5rem;
         padding-top: 3px;
     }
     .mostrar-menu,
@@ -1583,7 +1583,7 @@ input {
         right: -100%;
         top: 0;
         text-align: center;
-        padding: 100px 0px;
+        padding: 6.25rem 0px;
         z-index: 100;
         transition: 0.8s;
     }
@@ -1592,12 +1592,12 @@ input {
     }
     .menu-liv a {
         display: block;
-        padding: 15px;
+        padding: .9375rem;
     }
     .esconder-menu {
         position: absolute;
-        top: 40px;
-        right: 40px;
+        top: 2.5rem;
+        right: 2.5rem;
     }
     #check:checked ~ .menu-liv {
         right: 0;
@@ -1608,10 +1608,10 @@ input {
     }
     #champions-liv img{
         width: 100vh;
-        height: 600px;
+        height: 37.5rem;
     }
     #champions-liv div p {
-        padding-top: 20px;
+        padding-top: 1.25rem;
     }
     #liga-liv {
         flex-direction: column;
@@ -1619,10 +1619,10 @@ input {
     }
     #liga-liv img{
         width: 100vh;
-        height: 600px;
+        height: 37.5rem;
     }
     #liga-liv div p {
-        padding-top: 20px;
+        padding-top: 1.25rem;
     }
     #mundial-liv {
         flex-direction: column;
@@ -1630,16 +1630,16 @@ input {
     }
     #mundial-liv img{
         width: 100vh;
-        height: 600px;
+        height: 37.5rem;
     }
     #mundial-liv div p {
-        padding-top: 20px;
+        padding-top: 1.25rem;
     }
 
 }
 @media(max-width: 425px){
     .logo-liv {
-        max-width: 90px;
+        max-width: 5.625rem;
         padding-top: 3px;
     }
     #champions-liv {
@@ -1647,33 +1647,33 @@ input {
     }
     #champions-liv img{
         width: 65vh;
-        height: 500px;
+        height: 31.25rem;
     }
     #champions-liv div p {
-        padding-top: 10px;
-        width: 230px;
+        padding-top: .625rem;
+        width: 14.375rem;
     }
     #liga-liv {
         flex-direction: column;
     }
     #liga-liv img{
         width: 65vh;
-        height: 500px;
+        height: 31.25rem;
     }
     #liga-liv div p {
-        padding-top: 10px;
-        width: 230px;
+        padding-top: .625rem;
+        width: 14.375rem;
     }
     #mundial-liv {
         flex-direction: column;
     }
     #mundial-liv img{
         width: 65vh;
-        height: 500px;
+        height: 31.25rem;
     }
     #mundial-liv div p {
-        padding-top: 10px;
-        width: 230px;
+        padding-top: .625rem;
+        width: 14.375rem;
     }
     .contenedor-redes-liv a {
         padding: 5px;
@@ -1683,7 +1683,7 @@ input {
 
 @media(max-width: 320px){
     .logo-liv {
-        max-width: 80px;
+        max-width: 5rem;
         padding-top: 3px;
     }
     #champions-liv {
@@ -1691,36 +1691,36 @@ input {
     }
     #champions-liv img{
         width: 50vh;
-        height: 400px;
+        height: 25rem;
     }
     #champions-liv div p {
         padding-top: 10px;
-        width: 230px;
+        width: 14.375rem;
     }
     #liga-liv {
         flex-direction: column;
     }
     #liga-liv img{
         width: 50vh;
-        height: 400px;
+        height: 25rem;
     }
     #liga-liv div p {
-        padding-top: 10px;
-        width: 230px;
+        padding-top: .625rem;
+        width: 14.375rem;
     }
     #mundial-liv {
         flex-direction: column;
     }
     #mundial-liv img{
         width: 50vh;
-        height: 400px;
+        height: 25rem;
     }
     #mundial-liv div p {
-        padding-top: 10px;
-        width: 230px;
+        padding-top: .625rem;
+        width: 14.375rem;
     }
     .contenedor-redes-liv a {
-        width: 20px;
+        width: 1.25rem;
         padding: 5px;
         gap: 3px;
     }
@@ -1748,7 +1748,7 @@ input {
         right: -100%;
         top: 0;
         text-align: center;
-        padding: 100px 0px;
+        padding: 6.25rem 0px;
         z-index: 100;
         transition: 0.8s;
     }
@@ -1761,8 +1761,8 @@ input {
     }
     .esconder-menu {
         position: absolute;
-        top: 40px;
-        right: 40px;
+        top: 2.5rem;
+        right: 2.5rem;
     }
     #check:checked ~ .menu-man {
         right: 0;
@@ -1773,10 +1773,10 @@ input {
     }
     #champions-man img{
         width: 100vh;
-        height: 600px;
+        height: 37.5rem;
     }
     #champions-man div p {
-        padding-top: 20px;
+        padding-top: 1.25rem;
     }
     #liga-man {
         flex-direction: column;
@@ -1784,10 +1784,10 @@ input {
     }
     #liga-man img{
         width: 100vh;
-        height: 600px;
+        height: 37.5rem;
     }
     #liga-man div p {
-        padding-top: 20px;
+        padding-top: 1.25rem;
     }
     #mundial-man {
         flex-direction: column;
@@ -1795,16 +1795,16 @@ input {
     }
     #mundial-man img{
         width: 100vh;
-        height: 600px;
+        height: 37.5rem;
     }
     #mundial-man div p {
-        padding-top: 20px;
+        padding-top: 1.25rem;
     }
 
 }
 @media(max-width: 425px){
     .logo-man {
-        max-width: 90px;
+        max-width: 5.625rem;
         padding-top: 3px;
     }
     #champions-man {
@@ -1812,33 +1812,33 @@ input {
     }
     #champions-man img{
         width: 65vh;
-        height: 500px;
+        height: 31.25rem;
     }
     #champions-man div p {
-        padding-top: 10px;
-        width: 230px;
+        padding-top: .625rem;
+        width: 14.375rem;
     }
     #liga-r {
         flex-direction: column;
     }
     #liga-man img{
         width: 65vh;
-        height: 500px;
+        height: 31.25rem;
     }
     #liga-man div p {
-        padding-top: 10px;
-        width: 230px;
+        padding-top: .625rem;
+        width: 14.375rem;
     }
     #mundial-man {
         flex-direction: column;
     }
     #mundial-man img{
         width: 65vh;
-        height: 500px;
+        height: 31.25rem;
     }
     #mundial-man div p {
-        padding-top: 10px;
-        width: 230px;
+        padding-top: .625rem;
+        width: 14.375rem;
     }
     .contenedor-redes-man a {
         padding: 5px;
@@ -1848,7 +1848,7 @@ input {
 
 @media(max-width: 320px){
     .logo-man {
-        max-width: 80px;
+        max-width: 5rem;
         padding-top: 3px;
     }
     #champions-man {
@@ -1856,36 +1856,36 @@ input {
     }
     #champions-man img{
         width: 50vh;
-        height: 400px;
+        height: 25rem;
     }
     #champions-man div p {
-        padding-top: 10px;
-        width: 230px;
+        padding-top: .625rem;
+        width: 14.375rem;
     }
     #liga-man {
         flex-direction: column;
     }
     #liga-man img{
         width: 50vh;
-        height: 400px;
+        height: 25rem;
     }
     #liga-man div p {
-        padding-top: 10px;
-        width: 230px;
+        padding-top: .625rem;
+        width: 14.375rem;
     }
     #mundial-man {
         flex-direction: column;
     }
     #mundial-man img{
         width: 50vh;
-        height: 400px;
+        height: 25rem;
     }
     #mundial-man div p {
         padding-top: 10px;
-        width: 230px;
+        width: 14.375rem;
     }
     .contenedor-redes-man a {
-        width: 20px;
+        width: 1.25rem;
         padding: 5px;
         gap: 3px;
     }
@@ -1895,7 +1895,7 @@ input {
 /* seccion responsive bayern*/
 @media(max-width: 768px){
     .logo-bay {
-        max-width: 120px;
+        max-width: 7.5rem;
         padding-top: 3px;
     }
     .mostrar-menu,
@@ -1913,7 +1913,7 @@ input {
         right: -100%;
         top: 0;
         text-align: center;
-        padding: 100px 0px;
+        padding: 6.25rem 0px;
         z-index: 100;
         transition: 0.8s;
     }
@@ -1922,12 +1922,12 @@ input {
     }
     .menu-bay a {
         display: block;
-        padding: 15px;
+        padding: .9375rem;
     }
     .esconder-menu {
         position: absolute;
-        top: 40px;
-        right: 40px;
+        top: 2.5rem;
+        right: 2.5rem;
     }
     #check:checked ~ .menu-bay {
         right: 0;
@@ -1938,10 +1938,10 @@ input {
     }
     #champions-bay img{
         width: 100vh;
-        height: 600px;
+        height: 37.5rem;
     }
     #champions-bay div p {
-        padding-top: 20px;
+        padding-top: 1.25rem;
     }
     #liga-bay {
         flex-direction: column;
@@ -1950,10 +1950,10 @@ input {
     }
     #liga-bay img{
         width: 100vh;
-        height: 600px;
+        height: 37.5rem;
     }
     #liga-bay div p {
-        padding-top: 20px;
+        padding-top: 1.25rem;
     }
     #mundial-bay {
         flex-direction: column;
@@ -1961,16 +1961,16 @@ input {
     }
     #mundial-bay img{
         width: 100vh;
-        height: 600px;
+        height: 37.5rem;
     }
     #mundial-bay div p {
-        padding-top: 20px;
+        padding-top: 1.25rem;
     }
 
 }
 @media(max-width: 425px){
     .logo-bay {
-        max-width: 90px;
+        max-width: 5.625rem;
         padding-top: 3px;
     }
     #champions-bay {
@@ -1978,43 +1978,43 @@ input {
     }
     #champions-bay img{
         width: 65vh;
-        height: 500px;
+        height: 31.25rem;
     }
     #champions-bay div p {
-        padding-top: 10px;
-        width: 230px;
+        padding-top: .625rem;
+        width: 14.375rem;
     }
     #liga-bay {
         flex-direction: column;
     }
     #liga-bay img{
         width: 65vh;
-        height: 500px;
+        height: 31.25rem;
     }
     #liga-bay div p {
-        padding-top: 10px;
-        width: 230px;
+        padding-top: .625rem;
+        width: 14.375rem;
     }
     #mundial-bay {
         flex-direction: column;
     }
     #mundial-bay img{
         width: 65vh;
-        height: 500px;
+        height: 31.25rem;
     }
     #mundial-bay div p {
-        padding-top: 10px;
+        padding-top: .625rem;
         width: 230px;
     }
     .contenedor-redes-bay a {
-        padding: 5px;
+        padding: .3125rem;
     }
 
 }
 
 @media(max-width: 320px){
     .logo-bay {
-        max-width: 80px;
+        max-width: 5rem;
         padding-top: 3px;
     }
     #champions-bay {
@@ -2022,21 +2022,21 @@ input {
     }
     #champions-bay img{
         width: 50vh;
-        height: 400px;
+        height: 25rem;
     }
     #champions-bay div p {
-        padding-top: 10px;
-        width: 230px;
+        padding-top: .625rem;
+        width: 14.375rem;
     }
     #liga-bay {
         flex-direction: column;
     }
     #liga-bay img{
         width: 50vh;
-        height: 400px;
+        height: 25rem;
     }
     #liga-bay div p {
-        padding-top: 10px;
+        padding-top: .625rem;
         width: 230px;
     }
     #mundial-bay {
@@ -2044,16 +2044,16 @@ input {
     }
     #mundial-bay img{
         width: 50vh;
-        height: 400px;
+        height: 25rem;
     }
     #mundial-bay div p {
-        padding-top: 10px;
-        width: 230px;
+        padding-top: .625rem;
+        width: 14.375rem;
     }
     .contenedor-redes-bay a {
-        width: 20px;
-        padding: 5px; 
-        gap: 3px;
+        width: 1.25rem;
+        padding: .3125rem; 
+        gap: .1875rem;
     }
 
 }
