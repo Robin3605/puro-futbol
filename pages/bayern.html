@@ -3,75 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="../css./index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/index.css">
     <title>Bayern Munich</title>
 </head>
 <body>
-    <header class="header-bay">
-        <img class="logo-bay" src="https://i.pinimg.com/564x/8f/60/ea/8f60ea8b8d6b7a9e0274336012b2e4ae.jpg" alt="">
-        <input type="checkbox" id="check">
+    <header class="header-bay container-fluid row d-flex justify-content-between align-items-center p-3 ">
+        <img class="logo-bay col-4 ps-1" src="https://i.pinimg.com/564x/8f/60/ea/8f60ea8b8d6b7a9e0274336012b2e4ae.jpg" alt="">
+        <input class="input" type="checkbox" id="check">
         <label for="check" class="mostrar-menu">
             &#8801
         </label>
-        <nav class="menu-bay">
-            <ul class="ul1">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="#inicio-bay">Bayern Munich</a></li>
-                <li><a href="#champions-bay">Champions</a></li>
-                <li><a href="#liga-bay">Liga</a></li>
-                <li><a href="#mundial-bay">Mundial de clubes</a></li>
+        <nav class="row menu-bay col-8">
+            <ul class=" ul1 d-flex gap-5 fs-5 pe-5">
+                <li class=""><a href="../index.html">Home</a></li>
+                <li class=""><a href="#inicio-bay">Bayern Munich</a></li>
+                <li class=""><a href="#champions-bay">Champions</a></li>
+                <li class=""><a href="#liga-bay">Liga</a></li>
+                <li class=""><a href="#mundial-bay">Mundial de clubes</a></li>
             </ul>
             <label for="check" class="esconder-menu">
                 &#215
             </label>
-        </nav>    
+        </nav>
+
     </header>
     <main>
-        <section id="inicio-bay">
+        <section class="container-fluid" id="inicio-bay">
             <div class="contenido-banner-bay">
                 <h1></h1>
             </div>
         </section>
-        <section id="champions-bay">
-            <div>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi distinctio accusamus consectetur quaerat, eius delectus maiores eligendi possimus saepe. Magni ipsa, impedit autem eum repudiandae consectetur similique illo placeat aliquid ullam! Aspernatur, corporis perspiciatis. Fugiat optio blanditiis in. Ratione, praesentium!</p>
+        <section class="container-fluid row w-100 d-flex p-3 justify-content-between align-items-center gap-5" id="champions-bay">
+            <div class="col justify-content-between align-items-center w-100">
+                <p class="ps-5 fs-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi distinctio accusamus consectetur quaerat, eius delectus maiores eligendi possimus saepe. Magni ipsa, impedit autem eum repudiandae consectetur similique illo placeat aliquid ullam! Aspernatur, corporis perspiciatis. Fugiat optio blanditiis in. Ratione, praesentium!</p>
             </div>
-            <div>
-                <img src="https://i.pinimg.com/564x/14/06/37/140637765d9b65bd1b81cc2106459384.jpg" alt="">
-            </div>
-        </section>
-        <section id="liga-bay">
-            <div>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi distinctio accusamus consectetur quaerat, eius delectus maiores eligendi possimus saepe. Magni ipsa, impedit autem eum repudiandae consectetur similique illo placeat aliquid ullam! Aspernatur, corporis perspiciatis. Fugiat optio blanditiis in. Ratione, praesentium!</p>
-            </div>
-            <div>
-                <img src="https://i.pinimg.com/564x/f9/fc/80/f9fc80ec38ff7a324f22c5ce4b2c760d.jpg" alt="">
+            <div class="col me-5">
+                <img class="Height auto " src="https://i.pinimg.com/564x/14/06/37/140637765d9b65bd1b81cc2106459384.jpg" alt="">
             </div>
         </section>
-        <section id="mundial-bay">
-            <div>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi distinctio accusamus consectetur quaerat, eius delectus maiores eligendi possimus saepe. Magni ipsa, impedit autem eum repudiandae consectetur similique illo placeat aliquid ullam! Aspernatur, corporis perspiciatis. Fugiat optio blanditiis in. Ratione, praesentium!</p>
+        <section class="row w-100 d-flex p-3 justify-content-between align-items-center gap-5" id="liga-bay">
+            <div class="col justify-content-between align-items-center">
+                <p class=" ps-5 fs-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi distinctio accusamus consectetur quaerat, eius delectus maiores eligendi possimus saepe. Magni ipsa, impedit autem eum repudiandae consectetur similique illo placeat aliquid ullam! Aspernatur, corporis perspiciatis. Fugiat optio blanditiis in. Ratione, praesentium!</p>
             </div>
-            <div>
-                <img src="https://i.pinimg.com/564x/96/b8/df/96b8df859a8753b152452425a1a72948.jpg" alt="">
+            <div class="col me-5">
+                <img class="Height auto" src="https://i.pinimg.com/564x/f9/fc/80/f9fc80ec38ff7a324f22c5ce4b2c760d.jpg" alt="">
             </div>
         </section>
+        <section class="row w-100 d-flex p-3 justify-content-between align-items-center gap-5" id="mundial-bay">
+            <div class="col justify-content-between align-items-center w-100">
+                <p class="ps-5 fs-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi distinctio accusamus consectetur quaerat, eius delectus maiores eligendi possimus saepe. Magni ipsa, impedit autem eum repudiandae consectetur similique illo placeat aliquid ullam! Aspernatur, corporis perspiciatis. Fugiat optio blanditiis in. Ratione, praesentium!</p>
+            </div>
+            <div class="col me-5">
+                <img class="Height auto" src="https://i.pinimg.com/564x/96/b8/df/96b8df859a8753b152452425a1a72948.jpg" alt="">
+            </div>
+        </section>
+
     </main>
-    <footer class="footer-bay">
+    <footer>
         <div class="contenedor-redes-bay">
-            <div class="redes">
-                <a href="https://www.linkedin.com/in/robinson-ramirez-gualteros-038a541b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://www.facebook.com/robin.ramirez.1829405?mibextid=LQQJ4d"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.instagram.com/robin3605?igsh=MW82dzZjZXRvZzdidQ%3D%3D&utm_source=qr"><i class="fa-brands fa-facebook"></i></a>
-                <a href="https://github.com/Robin3605"><i class="fa-brands fa-github"></i></a>
+            <div class="redes fs-1 text-center p-2">
+                <a href="https://www.linkedin.com/in/robinson-ramirez-gualteros-038a541b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="bi bi-linkedin"></i></a>
+                <a href="https://www.facebook.com/robin.ramirez.1829405?mibextid=LQQJ4d"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.instagram.com/robin3605?igsh=MW82dzZjZXRvZzdidQ%3D%3D&utm_source=qr"><i class="bi bi-facebook"></i></a>
+                <a href="https://github.com/Robin3605"><i class="bi bi-github"></i></a>
             </div>
-            <div class="creado">
+            <div class="creado text-center">
                 <p>&copy;2024 Robin</p>
             </div>
-        </div>
+        </div> 
 
     </footer>
     
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
 </html>

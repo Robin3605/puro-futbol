@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
 * {
     margin: 0;
     padding: 0;
@@ -98,23 +100,23 @@ input {
     color: #0b60af;
     font-size: 1.5625rem;
 }
-#personas {
+#encabezado {
     padding: 3.125rem 3.125rem;
     display: flex;
     justify-content: center;
     text-align: center;
 }
-#personas img {
+#encabezado img {
     width: 100vh;
     height: 43.75rem;
     box-shadow: 0 0 6px rgba(0, 0, 0, .9);
     border-radius: .625rem;
 }
-#personas div {
+#encabezado div {
     padding: 1.875rem 1.875rem;
 }
 
-#personas div p {
+#encabezado div p {
     color: #22223b87;
     font-size: 1.125rem;
     padding: 1.25rem;
@@ -184,14 +186,7 @@ input {
     padding-top: .5rem;
 }
 /*seccion real madrid*/
-* {
-    margin: 0;
-    padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-body {
-    background-color: rgb(210, 208, 206);
-}
+
 .header-r {
     height: 6.25rem;
     background: linear-gradient(to right,  #e8ebed, #8a8b96);
@@ -371,14 +366,7 @@ input {
     padding-top: .5rem;
 }
 /*seccion Barcelona*/
-* {
-    margin: 0;
-    padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-body {
-    background-color: rgb(210, 208, 206);
-}
+
 .header-bar {
     height: 6.25rem;
     background: linear-gradient(to right,  #bc68bf, #b58542);
@@ -558,14 +546,7 @@ input {
     padding-top: .5rem;
 }
 /*seccion Liverpool*/
-* {
-    margin: 0;
-    padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-body {
-    background-color: rgb(210, 208, 206);
-}
+
 .header-liv {
     height: 6.25rem;
     background: linear-gradient(to right,  #900505, #ff0202);
@@ -745,14 +726,7 @@ input {
     padding-top: .5rem;
 }
 /*seccion Manchester City*/
-* {
-    margin: 0;
-    padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-body {
-    background-color: rgb(210, 208, 206);
-}
+
 .header-man {
     height: 6.25rem;
     background: linear-gradient(to right,  #58b6db, #14cbeb);
@@ -932,71 +906,32 @@ input {
     padding-top: .5rem;
 }
 /*seccion Bayern Munich*/
-* {
-    margin: 0;
-    padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-body {
-    background-color: rgb(210, 208, 206);
-}
-.header-bay {
-    height: 6.25rem;
-    background: linear-gradient(to right,  #d74b4b, #bf0505);
-    padding: 0 3.125rem;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.header-bay{
+    width: 100%;
+    background: linear-gradient(to right, #ed6666, #ff0202);
 }
 .logo-bay {
-    text-transform: uppercase;
-    max-width: 9.375rem;
-    height: 5rem;
-    font-weight: 200;
-}
-input {
-    display: none;
-}
-.menu-bay ul {
-    display: flex;
-    list-style: none;
-}
-.menu-bay ul li {
-    padding: .625rem;
-    padding-right: 1.25rem;
-    margin-right: .9375rem;
-}
-.menu-bay ul li:hover {
-    background: rgb(232, 44, 81);
-}
-.menu-bay a {
-    color: #fff;
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 0 .625rem;
-    transition: 0.4s;
-}
-.menu-bay a:hover {
-    color: rgb(52, 51, 47);
-}
-.mostrar-menu,
-.esconder-menu {
-    font-size: 1.875rem;
-    cursor: pointer;
-    display: none;
-    transition: 0.4s;
+    max-width: 3.625rem;
+    height: 10vh;
 }
 .mostrar-menu {
-    order: 1;
-}
-.mostrar-menu,
-.mostrar-menu:hover,
-.esconder-menu:hover {
-    color: #c42323;
-}
-#check {
     display: none;
+}
+.esconder-menu {
+    display: none;
+}
+.input {
+    display: none;
+}
+.ul1 {
+    list-style: none;
+}
+.ul1 a {
+    text-decoration: none;
+    color: #fff;
+}
+.ul1 a:hover {
+    color: #ae3d3d;
 }
 #inicio-bay {
     padding: 0 50px;
@@ -1005,118 +940,23 @@ input {
     background-size: cover;
     background-position: center;
 }
-#inicio-bay::before {
-    content: '';
-    /*background: rgba(77, 77, 92, 0.6);*/
-    position: absolute;
-    width: 100%;
-    height: 50vh;
-    left: 0;
-}
-.contenido-banner-bay{
-    position: relative;
-    color: #fff;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.contenido-banner-bay h1 {
-    font-size: 2.5rem;
-    font-weight: bold 400;
-    padding: .625rem 0px;
-    color: #9898bd;
-}
-
-#champions-bay {
-    padding: 3.125rem 3.125rem;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
 #champions-bay img {
     width: 100vh;
-    height: 43.75rem;
+    height: 33.75rem;
     box-shadow: 0 0 6px rgba(0, 0, 0, .9);
     border-radius: .625rem;
-}
-#champions-bay div {
-    padding: 1.875rem 1.875rem;
-}
-
-#champions-bay div p {
-    color: #22223b87;
-    font-size: 1.25rem;
-    padding: 1.25rem;
-    padding-top: 12.5rem;
-}
-#liga-bay {
-    padding: 3.125rem 3.125rem;
-    display: flex;
-    justify-content: center;
-    text-align: center;
 }
 #liga-bay img {
-    display: flex;
     width: 100vh;
-    height: 43.75rem;
+    height: 33.75rem;
     box-shadow: 0 0 6px rgba(0, 0, 0, .9);
     border-radius: .625rem;
-}
-#liga-bay div {
-    padding: 1.875rem 1.875rem;
-}
-
-#liga-bay div p {
-    color: #22223b87;
-    font-size: 1.125rem;
-    padding: 1.25rem;
-    padding-top: 12.5rem;
-}
-#mundial-bay {
-    padding: 3.125rem 3.125rem;
-    display: flex;
-    justify-content: center;
-    text-align: center;
 }
 #mundial-bay img {
     width: 100vh;
-    height: 43.75rem;
+    height: 33.75rem;
     box-shadow: 0 0 6px rgba(0, 0, 0, .9);
     border-radius: .625rem;
-}
-#mundial-bay div {
-    padding: 1.875rem 1.875rem;
-}
-
-#mundial-bay div p {
-    color: #22223b87;
-    font-size: 1.125rem;
-    padding: 1.25rem;
-    padding-top: 12.5rem;
-}
-.footer-bay {
-    margin-top: 1.25rem;
-    text-align: center;
-    background-color: #ea490f42;
-}
-.contenedor-redes-bay {
-    margin: .625rem;
-    text-align: center;
-    font-size: 2.5rem;
-    background-color: #f13b0e42;
-    padding: .625rem;
-}
-.contenedor-redes-bay a {
-    padding: 1.25rem;
-}
-.contenedor-redes-bay i:hover {
-    color: #f7290e;
-    transform: translate(2s);
-}
-.creado {
-    font-size: 1.25rem;
-    padding-top: .5rem;
 }
 
 /* seccion responsive pagina principal*/
@@ -1904,6 +1744,7 @@ input {
     }
     .mostrar-menu {
         color: #fff;
+        font-size: 2.125rem;
     }
     .menu-bay {
         position: fixed;
@@ -1924,10 +1765,15 @@ input {
         display: block;
         padding: .9375rem;
     }
+    .ul1 {
+        flex-direction: column;
+    }
     .esconder-menu {
         position: absolute;
         top: 2.5rem;
         right: 2.5rem;
+        font-size: 2.9rem;
+        color: #fff;
     }
     #check:checked ~ .menu-bay {
         right: 0;
