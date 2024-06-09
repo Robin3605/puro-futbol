@@ -1019,7 +1019,7 @@ input {
     }
     #encabezado {
         flex-direction: column;
-    }
+    } 
     #encabezado div p {
         padding-top: 1.25rem;
     }
@@ -1046,8 +1046,8 @@ input {
         font-size: 1.875rem;
     }
     #encabezado img{
-        width: 60vh;
-        height: 25rem;
+        width: 20.875rem;
+        height: 60vh;
         
     }
     #encabezado {
