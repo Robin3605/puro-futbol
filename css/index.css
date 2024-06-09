@@ -960,7 +960,32 @@ input {
 }
 
 /* seccion responsive pagina principal*/
-@media(max-width: 768px) {
+@media screen and (max-width: 1024px){
+    .ul1 li{
+        
+    }
+
+    .ul1 li a{
+        gap: 2px;
+        margin: 0;
+        padding: 0;
+        font-size: 15px;
+    }
+    
+    #encabezado p{
+        justify-content: center;
+        align-items: center;
+    }
+    #encabezado img{
+        width: 31.25rem;
+        height: 41.25rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    header {
+        width: auto;
+        height: auto;
+    }
     .logo {
         max-width: 7.5rem;
         padding-top: .1875rem;
@@ -999,9 +1024,15 @@ input {
     #check:checked ~ .menu {
         right: 0;
     } 
+    #encabezado h1{
+        color: #7e7575;
+    }
     #encabezado img{
-        width: 80vh;
-        height: 31.25rem;
+        width: 25rem;
+        height: 80vh;
+    }
+    #banner{
+        width: auto;
     }
     #encabezado {
         flex-direction: column;
@@ -1010,14 +1041,23 @@ input {
         padding-top: 1.25rem;
     }
     .contenedor3 .contenedor-img img {
-        width: 100vh;
-        height: 31.25rem;
+        width: 31.25rem;
+        height: 65vh;
+    }
+    footer{
+        width: auto;
     }
 }
-@media(max-width: 425px){
+@media screen and (max-width: 425px){
+    header{
+        width: auto;
+    }
     .logo {
         max-width: 5.625rem;
         padding-top: .1875rem;
+    }
+    #banner{
+        width: auto;
     }
     .contenido-banner h1 {
         font-size: 1.875rem;
@@ -1036,22 +1076,31 @@ input {
         width: 14.375rem;
     }
     .contenedor3 .contenedor-img img {
-        width: 65vh;
-        height: 25rem;
+        width: 20.875rem;
+        height: 60vh;
     }
     .contenedor-redes a i {
         width: 1.875rem;
     }
+    footer{
+        width: auto;
+    }
 
 }
-@media(max-width: 320px){
+@media screen and (max-width: 320px){
+    header{
+        width: auto;
+    }
     .logo {
         max-width: 5rem;
         padding-top: .1875rem;
     }
+    #banner{
+        width: auto;
+    }
     #encabezado img{
-        width: 50vh;
-        height: 25rem;
+        width: 15.625rem;
+        height: 55vh;
     }
     #encabezado {
         flex-direction: column;
@@ -1061,28 +1110,36 @@ input {
         width: 14.375rem;
     }
     .contenedor3 .contenedor-img img {
-        width: 50vh;
-        height: 18.75rem;
+        width: 15.625rem;
+        height: 55vh;
     }
     .contenedor-redes a {
         padding: .3125rem;
     }
-
+    footer{
+        width: auto;
+    }
 }
 
 /* seccion rs´ponsive real madrid*/
-
-@media(max-width: 768px){
+@media screen and (max-width: 1024px){
+    #champions-r img{
+        width: 31.25rem;
+        height: 90vh;
+    }
+    #liga-r img{
+        width: 31.25rem;
+        height: 90vh;
+    }
+    #mundial-r img{
+        width: 31.25rem;
+        height: 90vh;
+    }
+}
+@media screen and (max-width: 768px){
     .logo-r {
         max-width: 5.625rem;
         padding-top: .1875rem;
-    }
-    .mostrar-menu,
-    .esconder-menu {
-        display: block;
-    }
-    .mostrar-menu {
-        color: #fff;
     }
     .menu-r {
         position: fixed;
@@ -1116,8 +1173,8 @@ input {
         align-items: center;
     }
     #champions-r img{
-        width: 100vh;
-        height: 37.5rem;
+        width: 32.25rem;
+        height: 90vh;
     }
     #champions-r div p {
         padding-top: 1.25rem;
@@ -1127,8 +1184,8 @@ input {
         align-items: center;
     }
     #liga-r img{
-        width: 100vh;
-        height: 37.5rem;
+        width: 32.25rem;
+        height: 90vh;
     }
     #liga-r div p {
         padding-top: 1.25rem;
@@ -1138,15 +1195,15 @@ input {
         align-items: center;
     }
     #mundial-r img{
-        width: 100vh;
-        height: 37.5rem;
+        width: 32.25rem;
+        height: 90vh;
     }
     #mundial-r div p {
         padding-top: 1.25rem;
     }
 
 }
-@media(max-width: 425px){
+@media screen and (max-width: 425px){
     .logo-r {
         max-width: 5.625rem;
         padding-top: 3px;
@@ -1156,34 +1213,37 @@ input {
         
     }
     #champions-r img{
-        width: 65vh;
-        height: 31.25rem;
+        width: 20.875rem;
+        height: 70vh;
     }
     #champions-r div p {
         padding-top: .625rem;
-        width: 14.375rem;
+        width: 19.375rem;
+        font-size: 1.05rem;
     }
     #liga-r {
         flex-direction: column;
     }
     #liga-r img{
-        width: 65vh;
-        height: 31.25rem;
+        width: 20.875rem;
+        height: 70vh;;
     }
     #liga-r div p {
         padding-top: .625rem;
-        width: 14.375rem;
+        width: 19.375rem;
+        font-size: 1.05rem;
     }
     #mundial-r {
         flex-direction: column;
     }
     #mundial-r img{
-        width: 65vh;
-        height: 31.25rem;
+        width: 20.875rem;
+        height: 70vh;
     }
     #mundial-r div p {
         padding-top: .625rem;
-        width: 230px;
+        width: 19.375rem;
+        font-size: 1.05rem;
     }
     .contenedor-redes-r a {
         padding: .3125rem;
@@ -1191,7 +1251,7 @@ input {
 
 }
 
-@media(max-width: 320px){
+@media screen and (max-width: 320px){
     .logo-r {
         max-width: 5rem;
         padding-top: 3px;
@@ -1200,34 +1260,37 @@ input {
         flex-direction: column;
     }
     #champions-r img{
-        width: 50vh;
-        height: 25rem;
+        width: 15.625rem;
+        height: 60vh;
     }
     #champions-r div p {
         padding-top: .625rem;
-        width: 14.375rem;
+        width: 15.375rem;
+        font-size: 1.05rem;
     }
     #liga-r {
         flex-direction: column;
     }
     #liga-r img{
-        width: 50vh;
-        height: 25rem;
+        width: 15.625rem;
+        height: 60vh;
     }
     #liga-r div p {
         padding-top: .625rem;
-        width: 14.375rem;
+        width: 15.375rem;
+        font-size: 1.05rem;
     }
     #mundial-r {
         flex-direction: column;
     }
     #mundial-r img{
-        width: 50vh;
-        height: 25rem;
+        width: 15.625rem;
+        height: 60vh;
     }
     #mundial-r div p {
         padding-top: .625rem;
-        width: 14.375rem;
+        width: 15.375rem;
+        font-size: 1.05rem;
     }
     .contenedor-redes-r a {
         width: 1.25rem;
@@ -1238,17 +1301,10 @@ input {
 }
 
 /* seccion responsive barcelona*/
-@media(max-width: 768px){
+@media screen and (max-width: 768px){
     .logo-bar {
         max-width: 7.5rem;
         padding-top: .1875rem;
-    }
-    .mostrar-menu,
-    .esconder-menu {
-        display: block;
-    }
-    .mostrar-menu {
-        color: #fff;
     }
     .menu-bar {
         position: fixed;
@@ -1282,8 +1338,8 @@ input {
         align-items: center;
     }
     #champions-bar img{
-        width: 100vh;
-        height: 37.5rem;
+        width: 32.25rem;
+        height: 90vh;
     }
     #champions-bar div p {
         padding-top: 1.25rem;
@@ -1293,8 +1349,8 @@ input {
         align-items: center;
     }
     #liga-bar img{
-        width: 100vh;
-        height: 37.5rem;
+        width: 32.25rem;
+        height: 90vh;
     }
     #liga-bar div p {
         padding-top: 1.25rem;
@@ -1304,15 +1360,15 @@ input {
         align-items: center;
     }
     #mundial-bar img{
-        width: 100vh;
-        height: 37.5rem;
+        width: 32.25rem;
+        height: 90vh;
     }
     #mundial-bar div p {
         padding-top: 1.25rem;
     }
 
 }
-@media(max-width: 425px){
+@media screen and (max-width: 425px){
     .logo-bar {
         max-width: 90px;
         padding-top: 3px;
@@ -1321,34 +1377,37 @@ input {
         flex-direction: column;
     }
     #champions-bar img{
-        width: 65vh;
-        height: 31.25rem;
+        width: 20.875rem;
+        height: 70vh;
     }
     #champions-bar div p {
         padding-top: .625rem;
-        width: 14.375rem;
+        width: 19.375rem;
+        font-size: 1.05rem;
     }
     #liga-bar {
         flex-direction: column;
     }
     #liga-bar img{
-        width: 65vh;
-        height: 31.25rem;
+        width: 20.875rem;
+        height: 70vh;
     }
     #liga-bar div p {
         padding-top: .625rem;
-        width: 14.375rem;
+        width: 19.375rem;
+        font-size: 1.05rem;
     }
     #mundial-bar {
         flex-direction: column;
     }
     #mundial-bar img{
-        width: 65vh;
-        height: 31.25rem;
+        width: 20.875rem;
+        height: 70vh;
     }
     #mundial-bar div p {
         padding-top: .625rem;
-        width: 14.375rem;
+        width: 19.375rem;
+        font-size: 1.05rem;
     }
     .contenedor-redes-bar a {
         padding: 5px;
@@ -1356,43 +1415,46 @@ input {
 
 }
 
-@media(max-width: 320px){
+@media screen and (max-width: 320px){
     .logo-bar {
         max-width: 5rem;
         padding-top: 3px;
     }
-    #champions-bar {
+    #champions-r {
         flex-direction: column;
     }
     #champions-bar img{
-        width: 50vh;
-        height: 25rem;
+        width: 15.625rem;
+        height: 60vh;
     }
     #champions-bar div p {
         padding-top: .625rem;
-        width: 14.375rem;
+        width: 15.375rem;
+        font-size: 1.05rem;
     }
     #liga-bar {
         flex-direction: column;
     }
     #liga-bar img{
-        width: 50vh;
-        height: 25rem;
+        width: 15.625rem;
+        height: 60vh;
     }
-    #liga-r div p {
+    #liga-bar div p {
         padding-top: .625rem;
-        width: 14.375rem;
+        width: 15.375rem;
+        font-size: 1.05rem;
     }
     #mundial-bar {
         flex-direction: column;
     }
     #mundial-bar img{
-        width: 50vh;
-        height: 25rem;
+        width: 15.625rem;
+        height: 60vh;
     }
     #mundial-bar div p {
         padding-top: .625rem;
-        width: 14.375rem;
+        width: 15.375rem;
+        font-size: 1.05rem;
     }
     .contenedor-redes-bar a {
         width: 1.25rem;
@@ -1403,17 +1465,10 @@ input {
 }
 
 /* seccion responsive liverpool*/
-@media(max-width: 768px){
+@media screen and (max-width: 768px){
     .logo-liv {
         max-width: 7.5rem;
         padding-top: 3px;
-    }
-    .mostrar-menu,
-    .esconder-menu {
-        display: block;
-    }
-    .mostrar-menu {
-        color: #fff;
     }
     .menu-liv {
         position: fixed;
@@ -1447,8 +1502,8 @@ input {
         align-items: center;
     }
     #champions-liv img{
-        width: 100vh;
-        height: 37.5rem;
+        width: 32.25rem;
+        height: 90vh;
     }
     #champions-liv div p {
         padding-top: 1.25rem;
@@ -1458,8 +1513,8 @@ input {
         align-items: center;
     }
     #liga-liv img{
-        width: 100vh;
-        height: 37.5rem;
+        width: 32.25rem;
+        height: 90vh;
     }
     #liga-liv div p {
         padding-top: 1.25rem;
@@ -1469,15 +1524,15 @@ input {
         align-items: center;
     }
     #mundial-liv img{
-        width: 100vh;
-        height: 37.5rem;
+        width: 32.25rem;
+        height: 90vh;
     }
     #mundial-liv div p {
         padding-top: 1.25rem;
     }
 
 }
-@media(max-width: 425px){
+@media screen and (max-width: 425px){
     .logo-liv {
         max-width: 5.625rem;
         padding-top: 3px;
@@ -1486,34 +1541,37 @@ input {
         flex-direction: column;
     }
     #champions-liv img{
-        width: 65vh;
-        height: 31.25rem;
+        width: 20.875rem;
+        height: 70vh;
     }
     #champions-liv div p {
         padding-top: .625rem;
-        width: 14.375rem;
+        width: 19.375rem;
+        font-size: 1.05rem;
     }
     #liga-liv {
         flex-direction: column;
     }
     #liga-liv img{
-        width: 65vh;
-        height: 31.25rem;
+        width: 20.875rem;
+        height: 70vh;
     }
     #liga-liv div p {
         padding-top: .625rem;
-        width: 14.375rem;
+        width: 19.375rem;
+        font-size: 1.05rem;
     }
     #mundial-liv {
         flex-direction: column;
     }
     #mundial-liv img{
-        width: 65vh;
-        height: 31.25rem;
+        width: 20.875rem;
+        height: 70vh;
     }
     #mundial-liv div p {
         padding-top: .625rem;
-        width: 14.375rem;
+        width: 19.375rem;
+        font-size: 1.05rem;
     }
     .contenedor-redes-liv a {
         padding: 5px;
@@ -1521,7 +1579,7 @@ input {
 
 }
 
-@media(max-width: 320px){
+@media screen and (max-width: 320px){
     .logo-liv {
         max-width: 5rem;
         padding-top: 3px;
@@ -1530,34 +1588,37 @@ input {
         flex-direction: column;
     }
     #champions-liv img{
-        width: 50vh;
-        height: 25rem;
+        width: 15.625rem;
+        height: 60vh;
     }
     #champions-liv div p {
-        padding-top: 10px;
-        width: 14.375rem;
+        padding-top: .625rem;
+        width: 15.375rem;
+        font-size: 1.05rem;
     }
     #liga-liv {
         flex-direction: column;
     }
     #liga-liv img{
-        width: 50vh;
-        height: 25rem;
+        width: 15.625rem;
+        height: 60vh;
     }
     #liga-liv div p {
         padding-top: .625rem;
-        width: 14.375rem;
+        width: 15.375rem;
+        font-size: 1.05rem;
     }
     #mundial-liv {
         flex-direction: column;
     }
     #mundial-liv img{
-        width: 50vh;
-        height: 25rem;
+        width: 15.625rem;
+        height: 60vh;
     }
     #mundial-liv div p {
         padding-top: .625rem;
-        width: 14.375rem;
+        width: 15.375rem;
+        font-size: 1.05rem;
     }
     .contenedor-redes-liv a {
         width: 1.25rem;
@@ -1568,17 +1629,10 @@ input {
 }
 
 /* seccion responsive man city*/
-@media(max-width: 768px){
+@media screen and (max-width: 768px){
     .logo-man {
         max-width: 120px;
         padding-top: 3px;
-    }
-    .mostrar-menu,
-    .esconder-menu {
-        display: block;
-    }
-    .mostrar-menu {
-        color: #fff;
     }
     .menu-man {
         position: fixed;
@@ -1612,8 +1666,8 @@ input {
         align-items: center;
     }
     #champions-man img{
-        width: 100vh;
-        height: 37.5rem;
+        width: 32.25rem;
+        height: 90vh;
     }
     #champions-man div p {
         padding-top: 1.25rem;
@@ -1623,8 +1677,8 @@ input {
         align-items: center;
     }
     #liga-man img{
-        width: 100vh;
-        height: 37.5rem;
+        width: 32.25rem;
+        height: 90vh;
     }
     #liga-man div p {
         padding-top: 1.25rem;
@@ -1634,15 +1688,15 @@ input {
         align-items: center;
     }
     #mundial-man img{
-        width: 100vh;
-        height: 37.5rem;
+        width: 32.25rem;
+        height: 90vh;
     }
     #mundial-man div p {
         padding-top: 1.25rem;
     }
 
 }
-@media(max-width: 425px){
+@media screen and (max-width: 425px){
     .logo-man {
         max-width: 5.625rem;
         padding-top: 3px;
@@ -1651,34 +1705,37 @@ input {
         flex-direction: column;
     }
     #champions-man img{
-        width: 65vh;
-        height: 31.25rem;
+        width: 20.875rem;
+        height: 70vh;
     }
     #champions-man div p {
         padding-top: .625rem;
-        width: 14.375rem;
+        width: 19.375rem;
+        font-size: 1.05rem;
     }
     #liga-r {
         flex-direction: column;
     }
     #liga-man img{
-        width: 65vh;
-        height: 31.25rem;
+        width: 20.875rem;
+        height: 70vh;
     }
     #liga-man div p {
         padding-top: .625rem;
-        width: 14.375rem;
+        width: 19.375rem;
+        font-size: 1.05rem;
     }
     #mundial-man {
         flex-direction: column;
     }
     #mundial-man img{
-        width: 65vh;
-        height: 31.25rem;
+        width: 20.875rem;
+        height: 70vh;
     }
     #mundial-man div p {
         padding-top: .625rem;
-        width: 14.375rem;
+        width: 19.375rem;
+        font-size: 1.05rem;
     }
     .contenedor-redes-man a {
         padding: 5px;
@@ -1686,7 +1743,7 @@ input {
 
 }
 
-@media(max-width: 320px){
+@media screen and (max-width: 320px){
     .logo-man {
         max-width: 5rem;
         padding-top: 3px;
@@ -1695,34 +1752,37 @@ input {
         flex-direction: column;
     }
     #champions-man img{
-        width: 50vh;
-        height: 25rem;
+        width: 15.625rem;
+        height: 60vh;
     }
     #champions-man div p {
         padding-top: .625rem;
-        width: 14.375rem;
+        width: 15.375rem;
+        font-size: 1.05rem;
     }
     #liga-man {
         flex-direction: column;
     }
     #liga-man img{
-        width: 50vh;
-        height: 25rem;
+        width: 15.625rem;
+        height: 60vh;
     }
     #liga-man div p {
         padding-top: .625rem;
-        width: 14.375rem;
+        width: 15.375rem;
+        font-size: 1.05rem;
     }
     #mundial-man {
         flex-direction: column;
     }
     #mundial-man img{
-        width: 50vh;
-        height: 25rem;
+        width: 15.625rem;
+        height: 60vh;
     }
     #mundial-man div p {
-        padding-top: 10px;
-        width: 14.375rem;
+        padding-top: .625rem;
+        width: 15.375rem;
+        font-size: 1.05rem;
     }
     .contenedor-redes-man a {
         width: 1.25rem;
@@ -1733,7 +1793,7 @@ input {
 }
 
 /* seccion responsive bayern*/
-@media(max-width: 768px){
+@media screen and (max-width: 768px){
     .logo-bay {
         max-width: 7.5rem;
         padding-top: 3px;
@@ -1783,8 +1843,8 @@ input {
         align-items: center;
     }
     #champions-bay img{
-        width: 100vh;
-        height: 37.5rem;
+        width: 32.25rem;
+        height: 90vh;
     }
     #champions-bay div p {
         padding-top: 1.25rem;
@@ -1795,8 +1855,8 @@ input {
         
     }
     #liga-bay img{
-        width: 100vh;
-        height: 37.5rem;
+        width: 32.25rem;
+        height: 90vh;
     }
     #liga-bay div p {
         padding-top: 1.25rem;
@@ -1806,15 +1866,15 @@ input {
         align-items: center;
     }
     #mundial-bay img{
-        width: 100vh;
-        height: 37.5rem;
+        width: 32.25rem;
+        height: 90vh;
     }
     #mundial-bay div p {
         padding-top: 1.25rem;
     }
 
 }
-@media(max-width: 425px){
+@media screen and (max-width: 425px){
     .logo-bay {
         max-width: 5.625rem;
         padding-top: 3px;
@@ -1823,34 +1883,37 @@ input {
         flex-direction: column;
     }
     #champions-bay img{
-        width: 65vh;
-        height: 31.25rem;
+        width: 20.875rem;
+        height: 70vh;
     }
     #champions-bay div p {
         padding-top: .625rem;
-        width: 14.375rem;
+        width: 19.375rem;
+        font-size: 1.05rem;
     }
     #liga-bay {
         flex-direction: column;
     }
     #liga-bay img{
-        width: 65vh;
-        height: 31.25rem;
+        width: 20.875rem;
+        height: 70vh;
     }
     #liga-bay div p {
         padding-top: .625rem;
-        width: 14.375rem;
+        width: 19.375rem;
+        font-size: 1.05rem;
     }
     #mundial-bay {
         flex-direction: column;
     }
     #mundial-bay img{
-        width: 65vh;
-        height: 31.25rem;
+        width: 20.875rem;
+        height: 70vh;
     }
     #mundial-bay div p {
         padding-top: .625rem;
-        width: 230px;
+        width: 19.375rem;
+        font-size: 1.05rem;
     }
     .contenedor-redes-bay a {
         padding: .3125rem;
@@ -1858,7 +1921,7 @@ input {
 
 }
 
-@media(max-width: 320px){
+@media screen and (max-width: 320px){
     .logo-bay {
         max-width: 5rem;
         padding-top: 3px;
@@ -1867,34 +1930,37 @@ input {
         flex-direction: column;
     }
     #champions-bay img{
-        width: 50vh;
-        height: 25rem;
+        width: 15.625rem;
+        height: 60vh;
     }
     #champions-bay div p {
         padding-top: .625rem;
-        width: 14.375rem;
+        width: 15.375rem;
+        font-size: 1.05rem;
     }
     #liga-bay {
         flex-direction: column;
     }
     #liga-bay img{
-        width: 50vh;
-        height: 25rem;
+        width: 15.625rem;
+        height: 60vh;
     }
     #liga-bay div p {
         padding-top: .625rem;
-        width: 230px;
+        width: 15.375rem;
+        font-size: 1.05rem;
     }
     #mundial-bay {
         flex-direction: column;
     }
     #mundial-bay img{
-        width: 50vh;
-        height: 25rem;
+        width: 15.625rem;
+        height: 60vh;
     }
     #mundial-bay div p {
         padding-top: .625rem;
-        width: 14.375rem;
+        width: 15.375rem;
+        font-size: 1.05rem;
     }
     .contenedor-redes-bay a {
         width: 1.25rem;
