@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    body{
+        background-color: $colorBody;
+        font-family: "Lato:ital", Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+input{
+    display: none;
+}
+.mostrar-menu{
+    font-size: 1.875rem;
+    cursor: pointer;
+    display: none;
+    transition: 0.4s;
+    order: 1;
+    @extend input;
+}
+.esconder-menu{
+    @extend .mostrar-menu;
+    order: none;
+}
+#check{
+    display: none;
+}

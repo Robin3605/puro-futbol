@@ -1,0 +1,46 @@
+@media screen and (max-width: 320px){
+    header{
+        width: auto;
+        .logo {
+            max-width: 5rem;
+            padding-top: .1875rem;
+        }
+    }
+    
+    #banner{
+        width: auto;
+    }
+    #encabezado {
+        flex-direction: column;
+        img{
+            width: 14.625rem;
+            height: 55vh;
+        }
+        div{
+            p {
+                padding-top: .625rem;
+                width: 14.375rem;
+            }
+        }
+    }
+    .section3{
+        .contenedor3{
+            .contenedor-img{
+                img{
+                    width: 15.625rem;
+                    height: 55vh;
+                }
+            }
+        }
+    }
+    
+    
+    footer{
+        width: auto;
+        .contenedor-redes {
+            a{
+                padding: .3125rem;
+            }
+        }
+    }
+}

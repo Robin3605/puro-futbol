@@ -1,0 +1,23 @@
+.footer-bay{
+    margin-top: 1.25rem;
+    text-align: center;
+    background-color: #d2400b42;
+    .contenedor-redes-bay {
+        margin: .625rem;
+        text-align: center;
+        font-size: 2.5rem;
+        background-color: #f12e0742;
+        padding: .625rem;
+        a {
+            padding: 1.25rem;
+            i:hover {
+                color: #f32b2b;
+                transform: translate(2s);
+            }
+        }
+        .creado {
+            font-size: 1.25rem;
+            padding-top: .5rem;
+        }
+    }
+}

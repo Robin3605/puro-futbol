@@ -1,0 +1,59 @@
+@media screen and (max-width: 320px){
+    .header-liv{
+        width: auto;
+        .logo-liv {
+            max-width: 5rem;
+            padding-top: 3px;
+        }
+    }
+    #inicio-liv{
+        width: auto;
+    }
+    #champions-liv {
+        img{
+            width: 15.625rem;
+            height: 60vh;
+        }
+        div{
+            p{
+                width: 15.375rem;
+            }
+        }
+    }
+    #liga-liv {
+        img{
+            width: 15.625rem;
+            height: 60vh;
+        }
+        div{
+            p{
+                width: 15.375rem;
+            }
+        }
+
+    }
+    #mundial-liv {
+        img{
+            width: 15.625rem;
+            height: 60vh;
+        }
+        div{
+            p{
+                width: 15.375rem;
+            }
+        }
+    }
+    .footer-liv{
+        width: auto;
+        .contenedor-redes-liv{
+            .redes{
+                a{
+                    width: 1.25rem;
+                    padding: .3125rem;
+                    gap: 3px;
+                }
+            }
+        }
+    }
+
+}

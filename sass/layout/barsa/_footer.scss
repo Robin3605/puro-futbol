@@ -1,0 +1,23 @@
+.footer-bar{
+    margin-top: 1.25rem;
+    text-align: center;
+    background-color: #ae0a4942;
+    .contenedor-redes-bar {
+        margin: .625rem;
+        text-align: center;
+        font-size: 2.5rem;
+        background-color: #79072b42;
+        padding: .625rem;
+        a {
+            padding: 1.25rem;
+            i:hover {
+                color: #5f3e04;
+                transform: translate(2s);
+            }
+        }
+        .creado {
+            font-size: 1.25rem;
+            padding-top: .5rem;
+        }
+    }
+}

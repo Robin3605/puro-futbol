@@ -1,0 +1,50 @@
+#inicio-liv {
+    padding: 0 3.125rem;
+    background-image: url("https://i.pinimg.com/564x/0f/9e/94/0f9e949d0477d8e304e2fe57429ccf02.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    &::before {
+        content: '';
+        /*background: rgba(77, 77, 92, 0.6);*/
+        position: absolute;
+        width: 100%;
+        height: 50vh;
+        left: 0;
+    }
+    .contenido-banner-liv{
+        position: relative;
+        color: #fff;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+#champions-liv {
+    padding: 3.125rem 3.125rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    img{
+        width: 100vh;
+        height: 43.75rem;
+        box-shadow: 0 0 6px rgba(0, 0, 0, .9);
+        border-radius: .625rem;
+    }
+    div{
+        padding: 1.875rem 1.875rem;
+        p{
+            color: #22223b87;
+            font-size: 1.25rem; 
+            padding: 1.25rem;
+            padding-top: 12.5rem;
+        }
+    }
+}
+#liga-liv {
+    @extend #champions-liv;
+}
+#mundial-liv {
+    @extend #liga-liv;
+}

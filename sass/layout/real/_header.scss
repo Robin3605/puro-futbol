@@ -1,0 +1,39 @@
+//real madrid
+.header-r {
+    height: 6.25rem;
+    background: linear-gradient(to right,  #e8ebed, #8a8b96);
+    padding: 0 3.125rem;
+    color: #fff;
+    @include flex(none, none, space-between, center, 20px);
+    .logo-r {
+        text-transform: uppercase;
+        max-width: 9.375rem;
+        height: 5rem;
+        font-weight: 200;
+    }
+    .menu-r {
+        ul{
+            display: flex;
+            list-style: none;
+            li{
+                padding: .625rem;
+                padding-right: 1.25rem;
+                margin-right: .9375rem;
+                &:hover{
+                    background: rgb(141, 141, 163);
+                }
+                a{
+                    color: #fff;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    padding: 0 .625rem;
+                    transition: 0.4s;
+                    &:hover{
+                        color: rgb(52, 51, 47);
+                    }
+                }
+            }
+        }
+        
+    }
+}

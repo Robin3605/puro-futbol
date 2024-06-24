@@ -1,0 +1,69 @@
+@media screen and (max-width: 425px){
+    .header-man{
+        width: auto;
+        .logo-man {
+            max-width: 5.625rem;
+            padding-top: 3px;
+        }
+    }
+    #inicio-man{
+        width: auto;
+    }
+    #champions-man {
+        flex-direction: column;
+        img{
+            width: 20.875rem;
+            height: 70vh;
+        }
+        div{
+            p{
+                padding-top: .625rem;
+                width: 19.375rem;
+                font-size: 1.05rem;
+            }
+        }
+        
+    }
+    #liga-man {
+        flex-direction: column;
+        img{
+            width: 20.875rem;
+            height: 70vh;
+        }
+        div{
+            p{
+                padding-top: .625rem;
+                width: 19.375rem;
+                font-size: 1.05rem;
+            }
+        }
+    }
+    #mundial-man {
+        flex-direction: column;
+        img{
+            width: 20.875rem;
+            height: 70vh;
+        }
+        div{
+            p{
+                padding-top: .625rem;
+                width: 19.375rem;
+                font-size: 1.05rem;
+            }
+        }
+    }
+    .footer-man{
+        width: auto;
+        .contenedor-redes-man{
+            .redes{
+                a{
+                    padding: .3125rem;
+                    i{
+                        font-size: 35px;
+                    }
+                }
+            }
+        }
+    }
+
+}

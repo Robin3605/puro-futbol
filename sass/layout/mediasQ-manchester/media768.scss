@@ -1,0 +1,75 @@
+@media screen and (max-width: 768px){
+    .header-man{
+        .logo-man {
+            max-width: 5.625rem;
+            padding-top: .1875rem;
+        }
+        .menu-man {
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            background: #4d4d51;
+            right: -100%;
+            top: 0;
+            text-align: center;
+            padding: 6.25rem 0px;
+            z-index: 100;
+            transition: 0.8s;
+            ul{
+                display: block;
+                a{
+                    display: block;
+                    padding: .9375rem;
+                }
+            }
+        }
+        .esconder-menu {
+            position: absolute;
+            top: 2.5rem;
+            right: 2.5rem;
+        }
+        #check:checked ~ .menu-man {
+            right: 0;
+        }
+    }
+    #champions-man {
+        flex-direction: column;
+        align-items: center;
+        img{
+            width: 32.25rem;
+            height: 90vh;
+        }
+        div{
+            p{
+                padding-top: 1.25rem;
+            }
+        }
+    }
+    #liga-man {
+        flex-direction: column;
+        align-items: center;
+        img{
+            width: 32.25rem;
+            height: 90vh;
+        }
+        div{
+            p{
+                padding-top: 1.25rem;
+            }
+        }
+    }
+    #mundial-man {
+        flex-direction: column;
+        align-items: center;
+        img{
+            width: 32.25rem;
+            height: 90vh;
+        }
+        div{
+            p{
+                padding-top: 1.25rem;
+            }
+        }
+    }
+
+}

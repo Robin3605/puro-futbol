@@ -1,0 +1,23 @@
+.footer-man{
+    margin-top: 1.25rem;
+    text-align: center;
+    background-color: #207dba42;
+    .contenedor-redes-man {
+        margin: .625rem;
+        text-align: center;
+        font-size: 2.5rem;
+        background-color: #08718642;
+        padding: .625rem;
+        a {
+            padding: 1.25rem;
+            i:hover {
+                color: #04e6ff;
+                transform: translate(2s);
+            }
+        }
+        .creado {
+            font-size: 1.25rem;
+            padding-top: .5rem;
+        }
+    }
+}

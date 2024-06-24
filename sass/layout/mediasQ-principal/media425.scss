@@ -1,0 +1,61 @@
+@media screen and (max-width: 425px){
+    header{
+        width: auto;
+        .logo {
+            max-width: 5.625rem;
+            padding-top: .1875rem;
+        }
+    }
+    
+    #banner{
+        width: auto;
+        .contenido-banner{
+            h1{
+                font-size: 1.875rem;
+            }
+            
+        }
+    }
+    #encabezado {
+        flex-direction: column;
+        align-items: center;
+        img{
+            width: 19.875rem;
+            height: 60vh;
+        }
+        div{
+            p{
+                padding-top: .625rem;
+                width: 14.375rem;
+            }
+        }
+    }
+    .section3{
+        .contenedor3 {
+            .contenedor-img{
+                img{
+                    width: 20.875rem;
+                    height: 60vh;
+                }
+            }
+            
+        }
+    }
+    
+    footer{
+        width: auto;
+        .contenedor-redes {
+            .redes{
+                a{
+                    i{
+                        width: 1.875rem;
+                        font-size: 35px;
+                    }
+                
+                }
+            }
+            
+        }
+    }
+
+}

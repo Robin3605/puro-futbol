@@ -1,0 +1,75 @@
+#banner{
+    padding: 0 3.125rem;
+    background-image: url("https://cdn.pixabay.com/photo/2016/05/27/14/33/football-1419954_1280.jpg");
+    height: 95vh;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    &::before{
+        content: '';
+        /*background: rgba(77, 77, 92, 0.6);*/
+        position: absolute;
+        width: 100%;
+        height: 50vh;
+        left: 0;
+    }
+    
+}
+#encabezado {
+    padding: 3.125rem 3.125rem;
+    @include flex(none, none, center, center, none);
+    div {
+        padding: 1.875rem 1.875rem;
+        p{
+            color: $colorDescripcionImagenes;
+            font-size: 1.125rem;
+            padding: 1.25rem;
+            padding-top: 12.5rem;
+        }
+    }
+    img{
+        width: 100vh;
+        height: 43.75rem;
+        box-shadow: 0 0 6px rgba(0, 0, 0, .9);
+        border-radius: .625rem;
+    }
+}
+.section3 {
+    margin: 0;
+    padding: 0;
+    .contenedor3 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: 0;
+        padding: 0;
+        margin-top: 0;
+        .contenedor-img {
+            margin: 0;
+            padding: 0;
+            margin-top: 0px;
+            margin-bottom: 2.5rem;
+            img{
+                object-fit: cover;
+                width: 28.125rem;
+                height: 31.25rem;
+                display: block;
+                margin-bottom: .9375rem;
+                margin: 0;
+                padding: 0;
+                margin-top: .9375rem;
+                box-shadow: 0 0 6px rgba(0, 0, 0, .9);
+                cursor: pointer;
+            }
+            .figcaption{
+                text-align: center;
+                margin-top: .3125rem;
+                padding-top: .5rem;
+                font-size: 27px;
+            }
+        }
+    
+    }
+}

@@ -1,0 +1,72 @@
+@import "./utilities/variables";
+@import "./utilities/mixins";
+
+
+
+
+@import "./base/reset";
+
+
+@import "./layout/principal/header";
+@import "./layout/principal/main";
+@import "./layout/principal/footer";
+
+@import "./layout/real/header";
+@import "./layout/real/main";
+@import "./layout/real/footer";
+
+@import "./layout/barsa/header";
+@import "./layout/barsa/main";
+@import "./layout/barsa/footer";
+
+@import "./layout/liverpool/header";
+@import "./layout/liverpool/main";
+@import "./layout/liverpool/footer";
+
+@import "./layout/manchester/header";
+@import "./layout/manchester/main";
+@import "./layout/manchester/footer";
+
+@import "./layout/bayern/header";
+@import "./layout/bayern/main";
+@import "./layout/bayern/footer";
+
+
+
+
+
+
+
+
+@import "./layout/mediasQ-principal/media1024.scss";
+@import "./layout/mediasQ-principal/media768.scss";
+@import "./layout/mediasQ-principal/media425.scss";
+@import "./layout/mediasQ-principal/media320.scss";
+
+@import "./layout/mediasQ-real/media1024.scss";
+@import "./layout/mediasQ-real/media768.scss";
+@import "./layout/mediasQ-real/media425.scss";
+@import "./layout/mediasQ-real/media320.scss";
+
+@import "./layout/mediasQ-barsa/media1024.scss";
+@import "./layout/mediasQ-barsa/media768.scss";
+@import "./layout/mediasQ-barsa/media425.scss";
+@import "./layout/mediasQ-barsa/media320.scss";
+
+@import "./layout/mediasQ-liverpool/media1024.scss";
+@import "./layout/mediasQ-liverpool/media768.scss";
+@import "./layout/mediasQ-liverpool/media425.scss";
+@import "./layout/mediasQ-liverpool/media320.scss";
+
+@import "./layout/mediasQ-manchester/media1024.scss";
+@import "./layout/mediasQ-manchester/media768.scss";
+@import "./layout/mediasQ-manchester/media425.scss";
+@import "./layout/mediasQ-manchester/media320.scss";
+
+@import "./layout/mediasQ-bayern/media1024.scss";
+@import "./layout/mediasQ-bayern/media768.scss";
+@import "./layout/mediasQ-bayern/media425.scss";
+@import "./layout/mediasQ-bayern/media320.scss";
+
+
+

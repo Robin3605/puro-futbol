@@ -1,0 +1,1389 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+  * body {
+    background-color: #cccedf;
+    font-family: "Lato:ital", Verdana, Geneva, Tahoma, sans-serif; }
+
+input, .mostrar-menu, .esconder-menu {
+  display: none; }
+
+.mostrar-menu, .esconder-menu {
+  font-size: 1.875rem;
+  cursor: pointer;
+  display: none;
+  transition: 0.4s;
+  order: 1; }
+
+.esconder-menu {
+  order: none; }
+
+#check {
+  display: none; }
+
+header {
+  height: 6.25rem;
+  background: linear-gradient(to right, #000c67, #007be5);
+  padding: 0 3.125rem;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: none; }
+  header .logo {
+    text-transform: uppercase;
+    max-width: 9.375rem;
+    font-weight: 200; }
+  header nav ul {
+    display: flex;
+    list-style: none; }
+    header nav ul li {
+      padding: .625rem;
+      padding-right: 1.25rem;
+      margin-right: .9375rem; }
+      header nav ul li:hover {
+        background: blue; }
+      header nav ul li a {
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 0 .625rem;
+        transition: 0.4s; }
+        header nav ul li a:hover {
+          color: #020623; }
+
+#banner {
+  padding: 0 3.125rem;
+  background-image: url("https://cdn.pixabay.com/photo/2016/05/27/14/33/football-1419954_1280.jpg");
+  height: 95vh;
+  width: auto;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+  #banner::before {
+    content: '';
+    /*background: rgba(77, 77, 92, 0.6);*/
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    left: 0; }
+
+#encabezado {
+  padding: 3.125rem 3.125rem;
+  display: flex;
+  flex-direction: none;
+  flex-wrap: none;
+  justify-content: center;
+  align-items: center;
+  gap: none; }
+  #encabezado div {
+    padding: 1.875rem 1.875rem; }
+    #encabezado div p {
+      color: #22223b87;
+      font-size: 1.125rem;
+      padding: 1.25rem;
+      padding-top: 12.5rem; }
+  #encabezado img {
+    width: 100vh;
+    height: 43.75rem;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.9);
+    border-radius: .625rem; }
+
+.section3 {
+  margin: 0;
+  padding: 0; }
+  .section3 .contenedor3 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+    margin-top: 0; }
+    .section3 .contenedor3 .contenedor-img {
+      margin: 0;
+      padding: 0;
+      margin-top: 0px;
+      margin-bottom: 2.5rem; }
+      .section3 .contenedor3 .contenedor-img img {
+        object-fit: cover;
+        width: 28.125rem;
+        height: 31.25rem;
+        display: block;
+        margin-bottom: .9375rem;
+        margin: 0;
+        padding: 0;
+        margin-top: .9375rem;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.9);
+        cursor: pointer; }
+      .section3 .contenedor3 .contenedor-img .figcaption {
+        text-align: center;
+        margin-top: .3125rem;
+        padding-top: .5rem;
+        font-size: 27px; }
+
+footer {
+  margin-top: 1.25rem;
+  text-align: center;
+  background-color: #2b803542; }
+  footer .contenedor-redes {
+    margin: .625rem;
+    text-align: center;
+    font-size: 2.5rem;
+    background-color: #bbb1cc42;
+    padding: .625rem; }
+    footer .contenedor-redes a {
+      padding: 1.25rem; }
+      footer .contenedor-redes a i:hover {
+        color: #999dc2;
+        transform: translate(2s); }
+    footer .contenedor-redes .creado {
+      font-size: 1.25rem;
+      padding-top: .5rem; }
+
+.header-r {
+  height: 6.25rem;
+  background: linear-gradient(to right, #e8ebed, #8a8b96);
+  padding: 0 3.125rem;
+  color: #fff;
+  display: flex;
+  flex-direction: none;
+  flex-wrap: none;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px; }
+  .header-r .logo-r {
+    text-transform: uppercase;
+    max-width: 9.375rem;
+    height: 5rem;
+    font-weight: 200; }
+  .header-r .menu-r ul {
+    display: flex;
+    list-style: none; }
+    .header-r .menu-r ul li {
+      padding: .625rem;
+      padding-right: 1.25rem;
+      margin-right: .9375rem; }
+      .header-r .menu-r ul li:hover {
+        background: #8d8da3; }
+      .header-r .menu-r ul li a {
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 0 .625rem;
+        transition: 0.4s; }
+        .header-r .menu-r ul li a:hover {
+          color: #34332f; }
+
+#inicio-r {
+  padding: 0 3.125rem;
+  background-image: url("https://i.pinimg.com/564x/e1/56/79/e15679c85cd964f85602beb0d38f695d.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center; }
+  #inicio-r::before {
+    content: '';
+    /*background: rgba(77, 77, 92, 0.6);*/
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    left: 0; }
+  #inicio-r .contenido-banner-r {
+    position: relative;
+    color: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+
+#champions-r, #liga-r, #mundial-r {
+  padding: 3.125rem 3.125rem;
+  display: flex;
+  justify-content: center;
+  text-align: center; }
+  #champions-r img, #liga-r img, #mundial-r img {
+    width: 100vh;
+    height: 43.75rem;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.9);
+    border-radius: .625rem; }
+  #champions-r div, #liga-r div, #mundial-r div {
+    padding: 1.875rem 1.875rem; }
+    #champions-r div p, #liga-r div p, #mundial-r div p {
+      color: #22223b87;
+      font-size: 1.25rem;
+      padding: 1.25rem;
+      padding-top: 12.5rem; }
+
+.footer-r {
+  margin-top: 1.25rem;
+  text-align: center;
+  background-color: #50585442; }
+  .footer-r .contenedor-redes-r {
+    margin: .625rem;
+    text-align: center;
+    font-size: 2.5rem;
+    background-color: #51535242;
+    padding: .625rem; }
+    .footer-r .contenedor-redes-r a {
+      padding: 1.25rem; }
+      .footer-r .contenedor-redes-r a i:hover {
+        color: #41434d;
+        transform: translate(2s); }
+    .footer-r .contenedor-redes-r .creado {
+      font-size: 1.25rem;
+      padding-top: .5rem; }
+
+.header-bar {
+  height: 6.25rem;
+  background: linear-gradient(to right, #bc68bf, #b58542);
+  padding: 0 3.125rem;
+  color: #fff;
+  display: flex;
+  flex-direction: none;
+  flex-wrap: none;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px; }
+  .header-bar .logo-bar {
+    text-transform: uppercase;
+    max-width: 9.375rem;
+    height: 5rem;
+    font-weight: 200; }
+  .header-bar .menu-bar ul {
+    display: flex;
+    list-style: none; }
+    .header-bar .menu-bar ul li {
+      padding: .625rem;
+      padding-right: 1.25rem;
+      margin-right: .9375rem; }
+      .header-bar .menu-bar ul li:hover {
+        background: #d56f8f; }
+      .header-bar .menu-bar ul li a {
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 0 .625rem;
+        transition: 0.4s; }
+        .header-bar .menu-bar ul li a:hover {
+          color: #34332f; }
+
+#inicio-bar {
+  padding: 0 3.125rem;
+  background-image: url("https://i.pinimg.com/564x/71/c2/be/71c2be9d4c687e8ee2e5595003c653ab.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center; }
+  #inicio-bar::before {
+    content: '';
+    /*background: rgba(77, 77, 92, 0.6);*/
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    left: 0; }
+  #inicio-bar .contenido-banner-bar {
+    position: relative;
+    color: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+
+#champions-bar, #liga-bar, #mundial-bar {
+  padding: 3.125rem 3.125rem;
+  display: flex;
+  justify-content: center;
+  text-align: center; }
+  #champions-bar img, #liga-bar img, #mundial-bar img {
+    width: 100vh;
+    height: 43.75rem;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.9);
+    border-radius: .625rem; }
+  #champions-bar div, #liga-bar div, #mundial-bar div {
+    padding: 1.875rem 1.875rem; }
+    #champions-bar div p, #liga-bar div p, #mundial-bar div p {
+      color: #22223b87;
+      font-size: 1.25rem;
+      padding: 1.25rem;
+      padding-top: 12.5rem; }
+
+.footer-bar {
+  margin-top: 1.25rem;
+  text-align: center;
+  background-color: #ae0a4942; }
+  .footer-bar .contenedor-redes-bar {
+    margin: .625rem;
+    text-align: center;
+    font-size: 2.5rem;
+    background-color: #79072b42;
+    padding: .625rem; }
+    .footer-bar .contenedor-redes-bar a {
+      padding: 1.25rem; }
+      .footer-bar .contenedor-redes-bar a i:hover {
+        color: #5f3e04;
+        transform: translate(2s); }
+    .footer-bar .contenedor-redes-bar .creado {
+      font-size: 1.25rem;
+      padding-top: .5rem; }
+
+.header-liv {
+  height: 6.25rem;
+  background: linear-gradient(to right, #900505, #ff0202);
+  padding: 0 3.125rem;
+  color: #fff;
+  display: flex;
+  flex-direction: none;
+  flex-wrap: none;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px; }
+  .header-liv .logo-liv {
+    text-transform: uppercase;
+    max-width: 9.375rem;
+    height: 5rem;
+    font-weight: 200; }
+  .header-liv .menu-liv ul {
+    display: flex;
+    list-style: none; }
+    .header-liv .menu-liv ul li {
+      padding: .625rem;
+      padding-right: 1.25rem;
+      margin-right: .9375rem; }
+      .header-liv .menu-liv ul li:hover {
+        background: #e82c51; }
+      .header-liv .menu-liv ul li a {
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 0 .625rem;
+        transition: 0.4s; }
+        .header-liv .menu-liv ul li a:hover {
+          color: #34332f; }
+
+#inicio-liv {
+  padding: 0 3.125rem;
+  background-image: url("https://i.pinimg.com/564x/0f/9e/94/0f9e949d0477d8e304e2fe57429ccf02.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center; }
+  #inicio-liv::before {
+    content: '';
+    /*background: rgba(77, 77, 92, 0.6);*/
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    left: 0; }
+  #inicio-liv .contenido-banner-liv {
+    position: relative;
+    color: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+
+#champions-liv, #liga-liv, #mundial-liv {
+  padding: 3.125rem 3.125rem;
+  display: flex;
+  justify-content: center;
+  text-align: center; }
+  #champions-liv img, #liga-liv img, #mundial-liv img {
+    width: 100vh;
+    height: 43.75rem;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.9);
+    border-radius: .625rem; }
+  #champions-liv div, #liga-liv div, #mundial-liv div {
+    padding: 1.875rem 1.875rem; }
+    #champions-liv div p, #liga-liv div p, #mundial-liv div p {
+      color: #22223b87;
+      font-size: 1.25rem;
+      padding: 1.25rem;
+      padding-top: 12.5rem; }
+
+.footer-liv {
+  margin-top: 1.25rem;
+  text-align: center;
+  background-color: #971e1e42; }
+  .footer-liv .contenedor-redes-liv {
+    margin: .625rem;
+    text-align: center;
+    font-size: 2.5rem;
+    background-color: #971e1e42;
+    padding: .625rem; }
+    .footer-liv .contenedor-redes-liv a {
+      padding: 1.25rem; }
+      .footer-liv .contenedor-redes-liv a i:hover {
+        color: #fc0404;
+        transform: translate(2s); }
+    .footer-liv .contenedor-redes-liv .creado {
+      font-size: 1.25rem;
+      padding-top: .5rem; }
+
+.header-man {
+  height: 6.25rem;
+  background: linear-gradient(to right, #58b6db, #14cbeb);
+  padding: 0 3.125rem;
+  color: #fff;
+  display: flex;
+  flex-direction: none;
+  flex-wrap: none;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px; }
+  .header-man .logo-man {
+    text-transform: uppercase;
+    max-width: 9.375rem;
+    height: 5rem;
+    font-weight: 200; }
+  .header-man .menu-man ul {
+    display: flex;
+    list-style: none; }
+    .header-man .menu-man ul li {
+      padding: .625rem;
+      padding-right: 1.25rem;
+      margin-right: .9375rem; }
+      .header-man .menu-man ul li:hover {
+        background: #1bd3e4; }
+      .header-man .menu-man ul li a {
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 0 .625rem;
+        transition: 0.4s; }
+        .header-man .menu-man ul li a:hover {
+          color: #34332f; }
+
+#inicio-man {
+  padding: 0 3.125rem;
+  background-image: url("https://i.pinimg.com/564x/6a/f4/d5/6af4d5c8c06d61d4ff619ddeaa478772.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  object-fit: contain; }
+  #inicio-man::before {
+    content: '';
+    /*background: rgba(77, 77, 92, 0.6);*/
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    left: 0; }
+  #inicio-man .contenido-banner-man {
+    position: relative;
+    color: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+
+#champions-man, #liga-man, #mundial-man {
+  padding: 3.125rem 3.125rem;
+  display: flex;
+  justify-content: center;
+  text-align: center; }
+  #champions-man img, #liga-man img, #mundial-man img {
+    width: 100vh;
+    height: 43.75rem;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.9);
+    border-radius: .625rem; }
+  #champions-man div, #liga-man div, #mundial-man div {
+    padding: 1.875rem 1.875rem; }
+    #champions-man div p, #liga-man div p, #mundial-man div p {
+      color: #22223b87;
+      font-size: 1.25rem;
+      padding: 1.25rem;
+      padding-top: 12.5rem; }
+
+.footer-man {
+  margin-top: 1.25rem;
+  text-align: center;
+  background-color: #207dba42; }
+  .footer-man .contenedor-redes-man {
+    margin: .625rem;
+    text-align: center;
+    font-size: 2.5rem;
+    background-color: #08718642;
+    padding: .625rem; }
+    .footer-man .contenedor-redes-man a {
+      padding: 1.25rem; }
+      .footer-man .contenedor-redes-man a i:hover {
+        color: #04e6ff;
+        transform: translate(2s); }
+    .footer-man .contenedor-redes-man .creado {
+      font-size: 1.25rem;
+      padding-top: .5rem; }
+
+.header-bay {
+  height: 6.25rem;
+  background: linear-gradient(to right, #ed6666, #ff0202);
+  padding: 0 3.125rem;
+  color: #fff;
+  display: flex;
+  flex-direction: none;
+  flex-wrap: none;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px; }
+  .header-bay .logo-bay {
+    text-transform: uppercase;
+    max-width: 9.375rem;
+    height: 5rem;
+    font-weight: 200; }
+  .header-bay .menu-bay ul {
+    display: flex;
+    list-style: none; }
+    .header-bay .menu-bay ul li {
+      padding: .625rem;
+      padding-right: 1.25rem;
+      margin-right: .9375rem; }
+      .header-bay .menu-bay ul li:hover {
+        background: #922307; }
+      .header-bay .menu-bay ul li a {
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 0 .625rem;
+        transition: 0.4s; }
+        .header-bay .menu-bay ul li a:hover {
+          color: #ae3d3d; }
+
+#inicio-bay {
+  padding: 0 3.125rem;
+  background-image: url("https://i.pinimg.com/564x/af/e5/1f/afe51f3bf50dfc423616d5a237925ad5.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center; }
+  #inicio-bay::before {
+    content: '';
+    /*background: rgba(77, 77, 92, 0.6);*/
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    left: 0; }
+  #inicio-bay .contenido-banner-bay {
+    position: relative;
+    color: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+
+#champions-bay, #liga-bay, #mundial-bay {
+  padding: 3.125rem 3.125rem;
+  display: flex;
+  justify-content: center;
+  text-align: center; }
+  #champions-bay img, #liga-bay img, #mundial-bay img {
+    width: 100vh;
+    height: 43.75rem;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.9);
+    border-radius: .625rem; }
+  #champions-bay div, #liga-bay div, #mundial-bay div {
+    padding: 1.875rem 1.875rem; }
+    #champions-bay div p, #liga-bay div p, #mundial-bay div p {
+      color: #22223b87;
+      font-size: 1.25rem;
+      padding: 1.25rem;
+      padding-top: 12.5rem; }
+
+.footer-bay {
+  margin-top: 1.25rem;
+  text-align: center;
+  background-color: #d2400b42; }
+  .footer-bay .contenedor-redes-bay {
+    margin: .625rem;
+    text-align: center;
+    font-size: 2.5rem;
+    background-color: #f12e0742;
+    padding: .625rem; }
+    .footer-bay .contenedor-redes-bay a {
+      padding: 1.25rem; }
+      .footer-bay .contenedor-redes-bay a i:hover {
+        color: #f32b2b;
+        transform: translate(2s); }
+    .footer-bay .contenedor-redes-bay .creado {
+      font-size: 1.25rem;
+      padding-top: .5rem; }
+
+@media screen and (max-width: 1024px) {
+  .ul1 li a {
+    gap: 2px;
+    margin: 0;
+    padding: 0;
+    font-size: 15px; }
+  #encabezado p {
+    justify-content: center;
+    align-items: center; }
+  #encabezado img {
+    width: 31.25rem;
+    height: 41.25rem; } }
+
+@media screen and (max-width: 768px) {
+  header {
+    width: auto;
+    height: auto; }
+    header .logo {
+      max-width: 7.5rem;
+      padding-top: .1875rem; }
+    header .esconder-menu {
+      display: block;
+      position: absolute;
+      top: 2.5rem;
+      right: 2.5rem; }
+    header .mostrar-menu, header .esconder-menu {
+      display: block;
+      color: #fff; }
+    header #check:checked ~ .menu {
+      right: 0; }
+    header .menu {
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #4d4d5c;
+      right: -100%;
+      top: 0;
+      text-align: center;
+      padding: 6.25rem 0px;
+      z-index: 100;
+      transition: 0.8s; }
+      header .menu ul {
+        display: block; }
+        header .menu ul .menu a {
+          display: block;
+          padding: .9375rem; }
+  #encabezado {
+    flex-direction: column; }
+    #encabezado h1 {
+      color: #7e7575; }
+    #encabezado img {
+      width: 25rem;
+      height: 80vh; }
+    #encabezado div p {
+      padding-top: 1.25rem; }
+  #banner {
+    width: auto; }
+  .contenedor3 .contenedor-img img {
+    width: 31.25rem;
+    height: 65vh; }
+  footer {
+    width: auto; } }
+
+@media screen and (max-width: 425px) {
+  header {
+    width: auto; }
+    header .logo {
+      max-width: 5.625rem;
+      padding-top: .1875rem; }
+  #banner {
+    width: auto; }
+    #banner .contenido-banner h1 {
+      font-size: 1.875rem; }
+  #encabezado {
+    flex-direction: column;
+    align-items: center; }
+    #encabezado img {
+      width: 19.875rem;
+      height: 60vh; }
+    #encabezado div p {
+      padding-top: .625rem;
+      width: 14.375rem; }
+  .section3 .contenedor3 .contenedor-img img {
+    width: 20.875rem;
+    height: 60vh; }
+  footer {
+    width: auto; }
+    footer .contenedor-redes .redes a i {
+      width: 1.875rem;
+      font-size: 35px; } }
+
+@media screen and (max-width: 320px) {
+  header {
+    width: auto; }
+    header .logo {
+      max-width: 5rem;
+      padding-top: .1875rem; }
+  #banner {
+    width: auto; }
+  #encabezado {
+    flex-direction: column; }
+    #encabezado img {
+      width: 14.625rem;
+      height: 55vh; }
+    #encabezado div p {
+      padding-top: .625rem;
+      width: 14.375rem; }
+  .section3 .contenedor3 .contenedor-img img {
+    width: 15.625rem;
+    height: 55vh; }
+  footer {
+    width: auto; }
+    footer .contenedor-redes a {
+      padding: .3125rem; } }
+
+@media screen and (max-width: 1024px) {
+  #champions-r img, #liga-r img, #mundial-r img {
+    width: 31.25rem;
+    height: 90vh; }
+  #liga-r img, #mundial-r img {
+    width: 31.25rem;
+    height: 90vh; }
+  #mundial-r img {
+    width: 31.25rem;
+    height: 90vh; } }
+
+@media screen and (max-width: 768px) {
+  .header-r .logo-r {
+    max-width: 5.625rem;
+    padding-top: .1875rem; }
+  .header-r .menu-r {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #4d4d51;
+    right: -100%;
+    top: 0;
+    text-align: center;
+    padding: 6.25rem 0px;
+    z-index: 100;
+    transition: 0.8s; }
+    .header-r .menu-r ul {
+      display: block; }
+      .header-r .menu-r ul a {
+        display: block;
+        padding: .9375rem; }
+  .header-r .esconder-menu {
+    position: absolute;
+    top: 2.5rem;
+    right: 2.5rem; }
+  .header-r #check:checked ~ .menu-r {
+    right: 0; }
+  #champions-r, #liga-r, #mundial-r {
+    flex-direction: column;
+    align-items: center; }
+    #champions-r img, #liga-r img, #mundial-r img {
+      width: 32.25rem;
+      height: 90vh; }
+    #champions-r div p, #liga-r div p, #mundial-r div p {
+      padding-top: 1.25rem; }
+  #liga-r, #mundial-r {
+    flex-direction: column;
+    align-items: center; }
+    #liga-r img, #mundial-r img {
+      width: 32.25rem;
+      height: 90vh; }
+    #liga-r div p, #mundial-r div p {
+      padding-top: 1.25rem; }
+  #mundial-r {
+    flex-direction: column;
+    align-items: center; }
+    #mundial-r img {
+      width: 32.25rem;
+      height: 90vh; }
+    #mundial-r div p {
+      padding-top: 1.25rem; } }
+
+@media screen and (max-width: 425px) {
+  .header-r {
+    width: auto; }
+    .header-r .logo-r {
+      max-width: 5.625rem;
+      padding-top: 3px; }
+  #inicio-r {
+    width: auto; }
+  #champions-r, #liga-r, #mundial-r {
+    flex-direction: column; }
+    #champions-r img, #liga-r img, #mundial-r img {
+      width: 20.875rem;
+      height: 70vh; }
+    #champions-r div p, #liga-r div p, #mundial-r div p {
+      padding-top: .625rem;
+      width: 19.375rem;
+      font-size: 1.05rem; }
+  #liga-r, #mundial-r {
+    flex-direction: column; }
+    #liga-r img, #mundial-r img {
+      width: 20.875rem;
+      height: 70vh; }
+    #liga-r div p, #mundial-r div p {
+      padding-top: .625rem;
+      width: 19.375rem;
+      font-size: 1.05rem; }
+  #mundial-r {
+    flex-direction: column; }
+    #mundial-r img {
+      width: 20.875rem;
+      height: 70vh; }
+    #mundial-r div p {
+      padding-top: .625rem;
+      width: 19.375rem;
+      font-size: 1.05rem; }
+  .footer-r {
+    width: auto; }
+    .footer-r .contenedor-redes-r .redes a {
+      padding: .3125rem; }
+      .footer-r .contenedor-redes-r .redes a i {
+        font-size: 35px; } }
+
+@media screen and (max-width: 320px) {
+  .header-r {
+    width: auto; }
+    .header-r .logo-r {
+      max-width: 5rem;
+      padding-top: 3px; }
+  #inicio-r {
+    width: auto; }
+  #champions-r img, #liga-r img, #mundial-r img {
+    width: 15.625rem;
+    height: 60vh; }
+  #champions-r div p, #liga-r div p, #mundial-r div p {
+    width: 15.375rem; }
+  #liga-r img, #mundial-r img {
+    width: 15.625rem;
+    height: 60vh; }
+  #liga-r div p, #mundial-r div p {
+    width: 15.375rem; }
+  #mundial-r img {
+    width: 15.625rem;
+    height: 60vh; }
+  #mundial-r div p {
+    width: 15.375rem; }
+  .footer-r .contenedor-redes-r .redes a {
+    width: 1.25rem;
+    padding: .3125rem;
+    gap: 3px; } }
+
+@media screen and (max-width: 1024px) {
+  #champions-bar img, #liga-bar img, #mundial-bar img {
+    width: 31.25rem;
+    height: 90vh; }
+  #liga-bar img, #mundial-bar img {
+    width: 31.25rem;
+    height: 90vh; }
+  #mundial-bar img {
+    width: 31.25rem;
+    height: 90vh; } }
+
+@media screen and (max-width: 768px) {
+  .header-bar .logo-bar {
+    max-width: 5.625rem;
+    padding-top: .1875rem; }
+  .header-bar .menu-bar {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #4d4d51;
+    right: -100%;
+    top: 0;
+    text-align: center;
+    padding: 6.25rem 0px;
+    z-index: 100;
+    transition: 0.8s; }
+    .header-bar .menu-bar ul {
+      display: block; }
+      .header-bar .menu-bar ul a {
+        display: block;
+        padding: .9375rem; }
+  .header-bar .esconder-menu {
+    position: absolute;
+    top: 2.5rem;
+    right: 2.5rem; }
+  .header-bar #check:checked ~ .menu-bar {
+    right: 0; }
+  #champions-bar, #liga-bar, #mundial-bar {
+    flex-direction: column;
+    align-items: center; }
+    #champions-bar img, #liga-bar img, #mundial-bar img {
+      width: 32.25rem;
+      height: 90vh; }
+    #champions-bar div p, #liga-bar div p, #mundial-bar div p {
+      padding-top: 1.25rem; }
+  #liga-bar, #mundial-bar {
+    flex-direction: column;
+    align-items: center; }
+    #liga-bar img, #mundial-bar img {
+      width: 32.25rem;
+      height: 90vh; }
+    #liga-bar div p, #mundial-bar div p {
+      padding-top: 1.25rem; }
+  #mundial-bar {
+    flex-direction: column;
+    align-items: center; }
+    #mundial-bar img {
+      width: 32.25rem;
+      height: 90vh; }
+    #mundial-bar div p {
+      padding-top: 1.25rem; } }
+
+@media screen and (max-width: 425px) {
+  .header-bar {
+    width: auto; }
+    .header-bar .logo-bar {
+      max-width: 5.625rem;
+      padding-top: 3px; }
+  #inicio-bar {
+    width: auto; }
+  #champions-bar, #liga-bar, #mundial-bar {
+    flex-direction: column; }
+    #champions-bar img, #liga-bar img, #mundial-bar img {
+      width: 20.875rem;
+      height: 70vh; }
+    #champions-bar div p, #liga-bar div p, #mundial-bar div p {
+      padding-top: .625rem;
+      width: 19.375rem;
+      font-size: 1.05rem; }
+  #liga-bar, #mundial-bar {
+    flex-direction: column; }
+    #liga-bar img, #mundial-bar img {
+      width: 20.875rem;
+      height: 70vh; }
+    #liga-bar div p, #mundial-bar div p {
+      padding-top: .625rem;
+      width: 19.375rem;
+      font-size: 1.05rem; }
+  #mundial-bar {
+    flex-direction: column; }
+    #mundial-bar img {
+      width: 20.875rem;
+      height: 70vh; }
+    #mundial-bar div p {
+      padding-top: .625rem;
+      width: 19.375rem;
+      font-size: 1.05rem; }
+  .footer-bar {
+    width: auto; }
+    .footer-bar .contenedor-redes-bar .redes a {
+      padding: .3125rem; }
+      .footer-bar .contenedor-redes-bar .redes a i {
+        font-size: 35px; } }
+
+@media screen and (max-width: 320px) {
+  .header-bar {
+    width: auto; }
+    .header-bar .logo-bar {
+      max-width: 5rem;
+      padding-top: 3px; }
+  #inicio-bar {
+    width: auto; }
+  #champions-bar img, #liga-bar img, #mundial-bar img {
+    width: 15.625rem;
+    height: 60vh; }
+  #champions-bar div p, #liga-bar div p, #mundial-bar div p {
+    width: 15.375rem; }
+  #liga-bar img, #mundial-bar img {
+    width: 15.625rem;
+    height: 60vh; }
+  #liga-bar div p, #mundial-bar div p {
+    width: 15.375rem; }
+  #mundial-bar img {
+    width: 15.625rem;
+    height: 60vh; }
+  #mundial-bar div p {
+    width: 15.375rem; }
+  .footer-bar {
+    width: auto; }
+    .footer-bar .contenedor-redes-bar .redes a {
+      width: 1.25rem;
+      padding: .3125rem;
+      gap: 3px; } }
+
+@media screen and (max-width: 1024px) {
+  #champions-liv img, #liga-liv img, #mundial-liv img {
+    width: 31.25rem;
+    height: 90vh; }
+  #liga-liv img, #mundial-liv img {
+    width: 31.25rem;
+    height: 90vh; }
+  #mundial-liv img {
+    width: 31.25rem;
+    height: 90vh; } }
+
+@media screen and (max-width: 768px) {
+  .header-liv .logo-liv {
+    max-width: 5.625rem;
+    padding-top: .1875rem; }
+  .header-liv .menu-liv {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #4d4d51;
+    right: -100%;
+    top: 0;
+    text-align: center;
+    padding: 6.25rem 0px;
+    z-index: 100;
+    transition: 0.8s; }
+    .header-liv .menu-liv ul {
+      display: block; }
+      .header-liv .menu-liv ul a {
+        display: block;
+        padding: .9375rem; }
+  .header-liv .esconder-menu {
+    position: absolute;
+    top: 2.5rem;
+    right: 2.5rem; }
+  .header-liv #check:checked ~ .menu-liv {
+    right: 0; }
+  #champions-liv, #liga-liv, #mundial-liv {
+    flex-direction: column;
+    align-items: center; }
+    #champions-liv img, #liga-liv img, #mundial-liv img {
+      width: 32.25rem;
+      height: 90vh; }
+    #champions-liv div p, #liga-liv div p, #mundial-liv div p {
+      padding-top: 1.25rem; }
+  #liga-liv, #mundial-liv {
+    flex-direction: column;
+    align-items: center; }
+    #liga-liv img, #mundial-liv img {
+      width: 32.25rem;
+      height: 90vh; }
+    #liga-liv div p, #mundial-liv div p {
+      padding-top: 1.25rem; }
+  #mundial-liv {
+    flex-direction: column;
+    align-items: center; }
+    #mundial-liv img {
+      width: 32.25rem;
+      height: 90vh; }
+    #mundial-liv div p {
+      padding-top: 1.25rem; } }
+
+@media screen and (max-width: 425px) {
+  .header-liv {
+    width: auto; }
+    .header-liv .logo-liv {
+      max-width: 5.625rem;
+      padding-top: 3px; }
+  #inicio-liv {
+    width: auto; }
+  #champions-liv, #liga-liv, #mundial-liv {
+    flex-direction: column; }
+    #champions-liv img, #liga-liv img, #mundial-liv img {
+      width: 20.875rem;
+      height: 70vh; }
+    #champions-liv div p, #liga-liv div p, #mundial-liv div p {
+      padding-top: .625rem;
+      width: 19.375rem;
+      font-size: 1.05rem; }
+  #liga-liv, #mundial-liv {
+    flex-direction: column; }
+    #liga-liv img, #mundial-liv img {
+      width: 20.875rem;
+      height: 70vh; }
+    #liga-liv div p, #mundial-liv div p {
+      padding-top: .625rem;
+      width: 19.375rem;
+      font-size: 1.05rem; }
+  #mundial-liv {
+    flex-direction: column; }
+    #mundial-liv img {
+      width: 20.875rem;
+      height: 70vh; }
+    #mundial-liv div p {
+      padding-top: .625rem;
+      width: 19.375rem;
+      font-size: 1.05rem; }
+  .footer-liv {
+    width: auto; }
+    .footer-liv .contenedor-redes-liv .redes a {
+      padding: .3125rem; }
+      .footer-liv .contenedor-redes-liv .redes a i {
+        font-size: 35px; } }
+
+@media screen and (max-width: 320px) {
+  .header-liv {
+    width: auto; }
+    .header-liv .logo-liv {
+      max-width: 5rem;
+      padding-top: 3px; }
+  #inicio-liv {
+    width: auto; }
+  #champions-liv img, #liga-liv img, #mundial-liv img {
+    width: 15.625rem;
+    height: 60vh; }
+  #champions-liv div p, #liga-liv div p, #mundial-liv div p {
+    width: 15.375rem; }
+  #liga-liv img, #mundial-liv img {
+    width: 15.625rem;
+    height: 60vh; }
+  #liga-liv div p, #mundial-liv div p {
+    width: 15.375rem; }
+  #mundial-liv img {
+    width: 15.625rem;
+    height: 60vh; }
+  #mundial-liv div p {
+    width: 15.375rem; }
+  .footer-liv {
+    width: auto; }
+    .footer-liv .contenedor-redes-liv .redes a {
+      width: 1.25rem;
+      padding: .3125rem;
+      gap: 3px; } }
+
+@media screen and (max-width: 1024px) {
+  #champions-man img, #liga-man img, #mundial-man img {
+    width: 31.25rem;
+    height: 90vh; }
+  #liga-man img, #mundial-man img {
+    width: 31.25rem;
+    height: 90vh; }
+  #mundial-man img {
+    width: 31.25rem;
+    height: 90vh; } }
+
+@media screen and (max-width: 768px) {
+  .header-man .logo-man {
+    max-width: 5.625rem;
+    padding-top: .1875rem; }
+  .header-man .menu-man {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #4d4d51;
+    right: -100%;
+    top: 0;
+    text-align: center;
+    padding: 6.25rem 0px;
+    z-index: 100;
+    transition: 0.8s; }
+    .header-man .menu-man ul {
+      display: block; }
+      .header-man .menu-man ul a {
+        display: block;
+        padding: .9375rem; }
+  .header-man .esconder-menu {
+    position: absolute;
+    top: 2.5rem;
+    right: 2.5rem; }
+  .header-man #check:checked ~ .menu-man {
+    right: 0; }
+  #champions-man, #liga-man, #mundial-man {
+    flex-direction: column;
+    align-items: center; }
+    #champions-man img, #liga-man img, #mundial-man img {
+      width: 32.25rem;
+      height: 90vh; }
+    #champions-man div p, #liga-man div p, #mundial-man div p {
+      padding-top: 1.25rem; }
+  #liga-man, #mundial-man {
+    flex-direction: column;
+    align-items: center; }
+    #liga-man img, #mundial-man img {
+      width: 32.25rem;
+      height: 90vh; }
+    #liga-man div p, #mundial-man div p {
+      padding-top: 1.25rem; }
+  #mundial-man {
+    flex-direction: column;
+    align-items: center; }
+    #mundial-man img {
+      width: 32.25rem;
+      height: 90vh; }
+    #mundial-man div p {
+      padding-top: 1.25rem; } }
+
+@media screen and (max-width: 425px) {
+  .header-man {
+    width: auto; }
+    .header-man .logo-man {
+      max-width: 5.625rem;
+      padding-top: 3px; }
+  #inicio-man {
+    width: auto; }
+  #champions-man, #liga-man, #mundial-man {
+    flex-direction: column; }
+    #champions-man img, #liga-man img, #mundial-man img {
+      width: 20.875rem;
+      height: 70vh; }
+    #champions-man div p, #liga-man div p, #mundial-man div p {
+      padding-top: .625rem;
+      width: 19.375rem;
+      font-size: 1.05rem; }
+  #liga-man, #mundial-man {
+    flex-direction: column; }
+    #liga-man img, #mundial-man img {
+      width: 20.875rem;
+      height: 70vh; }
+    #liga-man div p, #mundial-man div p {
+      padding-top: .625rem;
+      width: 19.375rem;
+      font-size: 1.05rem; }
+  #mundial-man {
+    flex-direction: column; }
+    #mundial-man img {
+      width: 20.875rem;
+      height: 70vh; }
+    #mundial-man div p {
+      padding-top: .625rem;
+      width: 19.375rem;
+      font-size: 1.05rem; }
+  .footer-man {
+    width: auto; }
+    .footer-man .contenedor-redes-man .redes a {
+      padding: .3125rem; }
+      .footer-man .contenedor-redes-man .redes a i {
+        font-size: 35px; } }
+
+@media screen and (max-width: 320px) {
+  .header-man {
+    width: auto; }
+    .header-man .logo-man {
+      max-width: 5rem;
+      padding-top: 3px; }
+  #inicio-man {
+    width: auto; }
+  #champions-man img, #liga-man img, #mundial-man img {
+    width: 15.625rem;
+    height: 60vh; }
+  #champions-man div p, #liga-man div p, #mundial-man div p {
+    width: 15.375rem; }
+  #liga-man img, #mundial-man img {
+    width: 15.625rem;
+    height: 60vh; }
+  #liga-man div p, #mundial-man div p {
+    width: 15.375rem; }
+  #mundial-man img {
+    width: 15.625rem;
+    height: 60vh; }
+  #mundial-man div p {
+    width: 15.375rem; }
+  .footer-man {
+    width: auto; }
+    .footer-man .contenedor-redes-man .redes a {
+      width: 1.25rem;
+      padding: .3125rem;
+      gap: 3px; } }
+
+@media screen and (max-width: 1024px) {
+  #champions-bay img, #liga-bay img, #mundial-bay img {
+    width: 31.25rem;
+    height: 90vh; }
+  #liga-bay img, #mundial-bay img {
+    width: 31.25rem;
+    height: 90vh; }
+  #mundial-bay img {
+    width: 31.25rem;
+    height: 90vh; } }
+
+@media screen and (max-width: 768px) {
+  .header-bay .logo-bay {
+    max-width: 5.625rem;
+    padding-top: .1875rem; }
+  .header-bay .menu-bay {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #4d4d51;
+    right: -100%;
+    top: 0;
+    text-align: center;
+    padding: 6.25rem 0px;
+    z-index: 100;
+    transition: 0.8s; }
+    .header-bay .menu-bay ul {
+      display: block; }
+      .header-bay .menu-bay ul a {
+        display: block;
+        padding: .9375rem; }
+  .header-bay .esconder-menu {
+    position: absolute;
+    top: 2.5rem;
+    right: 2.5rem; }
+  .header-bay #check:checked ~ .menu-bay {
+    right: 0; }
+  #champions-bay, #liga-bay, #mundial-bay {
+    flex-direction: column;
+    align-items: center; }
+    #champions-bay img, #liga-bay img, #mundial-bay img {
+      width: 32.25rem;
+      height: 90vh; }
+    #champions-bay div p, #liga-bay div p, #mundial-bay div p {
+      padding-top: 1.25rem; }
+  #liga-bay, #mundial-bay {
+    flex-direction: column;
+    align-items: center; }
+    #liga-bay img, #mundial-bay img {
+      width: 32.25rem;
+      height: 90vh; }
+    #liga-bay div p, #mundial-bay div p {
+      padding-top: 1.25rem; }
+  #mundial-bay {
+    flex-direction: column;
+    align-items: center; }
+    #mundial-bay img {
+      width: 32.25rem;
+      height: 90vh; }
+    #mundial-bay div p {
+      padding-top: 1.25rem; } }
+
+@media screen and (max-width: 425px) {
+  .header-bay {
+    width: auto; }
+    .header-bay .logo-bay {
+      max-width: 5.625rem;
+      padding-top: 3px; }
+  #inicio-bay {
+    width: auto; }
+  #champions-bay, #liga-bay, #mundial-bay {
+    flex-direction: column; }
+    #champions-bay img, #liga-bay img, #mundial-bay img {
+      width: 20.875rem;
+      height: 70vh; }
+    #champions-bay div p, #liga-bay div p, #mundial-bay div p {
+      padding-top: .625rem;
+      width: 19.375rem;
+      font-size: 1.05rem; }
+  #liga-bay, #mundial-bay {
+    flex-direction: column; }
+    #liga-bay img, #mundial-bay img {
+      width: 20.875rem;
+      height: 70vh; }
+    #liga-bay div p, #mundial-bay div p {
+      padding-top: .625rem;
+      width: 19.375rem;
+      font-size: 1.05rem; }
+  #mundial-bay {
+    flex-direction: column; }
+    #mundial-bay img {
+      width: 20.875rem;
+      height: 70vh; }
+    #mundial-bay div p {
+      padding-top: .625rem;
+      width: 19.375rem;
+      font-size: 1.05rem; }
+  .footer-bay {
+    width: auto; }
+    .footer-bay .contenedor-redes-bay .redes a {
+      padding: .3125rem; }
+      .footer-bay .contenedor-redes-bay .redes a i {
+        font-size: 35px; } }
+
+@media screen and (max-width: 320px) {
+  .header-bay {
+    width: auto; }
+    .header-bay .logo-bay {
+      max-width: 5rem;
+      padding-top: 3px; }
+  #inicio-bay {
+    width: auto; }
+  #champions-bay img, #liga-bay img, #mundial-bay img {
+    width: 15.625rem;
+    height: 60vh; }
+  #champions-bay div p, #liga-bay div p, #mundial-bay div p {
+    width: 15.375rem; }
+  #liga-bay img, #mundial-bay img {
+    width: 15.625rem;
+    height: 60vh; }
+  #liga-bay div p, #mundial-bay div p {
+    width: 15.375rem; }
+  #mundial-bay img {
+    width: 15.625rem;
+    height: 60vh; }
+  #mundial-bay div p {
+    width: 15.375rem; }
+  .footer-bay {
+    width: auto; }
+    .footer-bay .contenedor-redes-bay .redes a {
+      width: 1.25rem;
+      padding: .3125rem;
+      gap: 3px; } }

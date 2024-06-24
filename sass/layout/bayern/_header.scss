@@ -1,0 +1,38 @@
+.header-bay {
+    height: 6.25rem;
+    background: linear-gradient(to right, #ed6666, #ff0202);
+    padding: 0 3.125rem;
+    color: #fff;
+    @include flex(none, none, space-between, center, 20px);
+    .logo-bay {
+        text-transform: uppercase;
+        max-width: 9.375rem;
+        height: 5rem;
+        font-weight: 200;
+    }
+    .menu-bay {
+        ul{
+            display: flex;
+            list-style: none;
+            li{
+                padding: .625rem;
+                padding-right: 1.25rem;
+                margin-right: .9375rem;
+                &:hover{
+                    background: rgb(146, 35, 7);
+                }
+                a{
+                    color: #fff;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    padding: 0 .625rem;
+                    transition: 0.4s;
+                    &:hover{
+                        color: #ae3d3d;
+                    }
+                }
+            }
+        }
+        
+    }
+}

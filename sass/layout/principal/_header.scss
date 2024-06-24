@@ -1,0 +1,36 @@
+header{
+    height: 6.25rem;
+    background: linear-gradient(to right, #000c67, #007be5);
+    padding: 0 3.125rem;
+    color: #fff;
+    @include flex(row, nowrap, space-between, center, none);
+    .logo{
+        text-transform: uppercase;
+        max-width: 9.375rem;
+        font-weight: 200;
+    }
+    nav{
+        ul{
+            display: flex;
+            list-style: none;
+            li{
+                padding: .625rem;
+                padding-right: 1.25rem;
+                margin-right: .9375rem;
+                &:hover{
+                    background: blue;
+                }
+                a{
+                    color: $colorLetrasNav;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    padding: 0 .625rem;
+                    transition: 0.4s;
+                    &:hover{
+                        color: #020623;
+                    }
+                }
+            }
+        }
+    }
+}
