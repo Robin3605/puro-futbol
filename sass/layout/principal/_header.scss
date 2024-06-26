@@ -6,8 +6,9 @@ header{
     @include flex(row, nowrap, space-between, center, none);
     .logo{
         text-transform: uppercase;
-        max-width: 9.375rem;
+        max-width: 8.375rem;
         font-weight: 200;
+        border-radius: 50%;
     }
     nav{
         ul{

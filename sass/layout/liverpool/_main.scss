@@ -1,7 +1,7 @@
 #inicio-liv {
     padding: 0 3.125rem;
     background-image: url("https://i.pinimg.com/564x/0f/9e/94/0f9e949d0477d8e304e2fe57429ccf02.jpg");
-    height: 100vh;
+    height: 78vh;
     background-size: cover;
     background-position: center;
     &::before {
@@ -28,17 +28,22 @@
     text-align: center;
     img{
         width: 100vh;
-        height: 43.75rem;
+        height: 28.75rem;
         box-shadow: 0 0 6px rgba(0, 0, 0, .9);
         border-radius: .625rem;
     }
     div{
-        padding: 1.875rem 1.875rem;
+        padding: 1.875rem 1.875rem ;
+        h2{
+            text-align: center;
+            color: #4c4a4a;
+            padding-top: 3.5rem;
+        }
         p{
             color: #22223b87;
             font-size: 1.25rem; 
-            padding: 1.25rem;
-            padding-top: 12.5rem;
+            padding: 1.25rem, 1.25rem, 1.25rem, .25rem;
+            padding-top: 3.5rem;
         }
     }
 }

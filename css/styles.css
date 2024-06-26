@@ -1,10 +1,10 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: "Oswald"; }
   * body {
-    background-color: #cccedf;
-    font-family: "Lato:ital", Verdana, Geneva, Tahoma, sans-serif; }
+    background-color: #cccedf; }
 
 input, .mostrar-menu, .esconder-menu {
   display: none; }
@@ -35,8 +35,9 @@ header {
   gap: none; }
   header .logo {
     text-transform: uppercase;
-    max-width: 9.375rem;
-    font-weight: 200; }
+    max-width: 8.375rem;
+    font-weight: 200;
+    border-radius: 50%; }
   header nav ul {
     display: flex;
     list-style: none; }
@@ -57,8 +58,8 @@ header {
 
 #banner {
   padding: 0 3.125rem;
-  background-image: url("https://cdn.pixabay.com/photo/2016/05/27/14/33/football-1419954_1280.jpg");
-  height: 95vh;
+  background-image: url("https://cdn.pixabay.com/photo/2014/04/03/11/08/soccer-311838_1280.png");
+  height: 78vh;
   width: auto;
   background-size: cover;
   background-position: center;
@@ -81,14 +82,17 @@ header {
   gap: none; }
   #encabezado div {
     padding: 1.875rem 1.875rem; }
+    #encabezado div h1 {
+      text-align: center;
+      color: #4c4a4a; }
     #encabezado div p {
       color: #22223b87;
       font-size: 1.125rem;
-      padding: 1.25rem;
-      padding-top: 12.5rem; }
+      padding: 1.25rem, 1.25rem, 1.25rem, .25rem;
+      padding-top: 2.5rem; }
   #encabezado img {
     width: 100vh;
-    height: 43.75rem;
+    height: 23.75rem;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.9);
     border-radius: .625rem; }
 
@@ -159,6 +163,7 @@ footer {
     text-transform: uppercase;
     max-width: 9.375rem;
     height: 5rem;
+    border-radius: 50%;
     font-weight: 200; }
   .header-r .menu-r ul {
     display: flex;
@@ -180,8 +185,8 @@ footer {
 
 #inicio-r {
   padding: 0 3.125rem;
-  background-image: url("https://i.pinimg.com/564x/e1/56/79/e15679c85cd964f85602beb0d38f695d.jpg");
-  height: 100vh;
+  background-image: url("https://i.pinimg.com/564x/28/7e/a4/287ea4c7ef1618f1433cf0df6b40a181.jpg");
+  height: 78vh;
   background-size: cover;
   background-position: center; }
   #inicio-r::before {
@@ -206,16 +211,20 @@ footer {
   text-align: center; }
   #champions-r img, #liga-r img, #mundial-r img {
     width: 100vh;
-    height: 43.75rem;
+    height: 28.75rem;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.9);
     border-radius: .625rem; }
   #champions-r div, #liga-r div, #mundial-r div {
     padding: 1.875rem 1.875rem; }
+    #champions-r div h2, #liga-r div h2, #mundial-r div h2 {
+      text-align: center;
+      color: #4c4a4a;
+      padding-top: 3.5rem; }
     #champions-r div p, #liga-r div p, #mundial-r div p {
       color: #22223b87;
       font-size: 1.25rem;
-      padding: 1.25rem;
-      padding-top: 12.5rem; }
+      padding: 1.25rem, 1.25rem, 1.25rem, .25rem;
+      padding-top: 3.5rem; }
 
 .footer-r {
   margin-top: 1.25rem;
@@ -251,6 +260,7 @@ footer {
     text-transform: uppercase;
     max-width: 9.375rem;
     height: 5rem;
+    border-radius: 50%;
     font-weight: 200; }
   .header-bar .menu-bar ul {
     display: flex;
@@ -272,8 +282,8 @@ footer {
 
 #inicio-bar {
   padding: 0 3.125rem;
-  background-image: url("https://i.pinimg.com/564x/71/c2/be/71c2be9d4c687e8ee2e5595003c653ab.jpg");
-  height: 100vh;
+  background-image: url("https://i.pinimg.com/564x/f2/8e/eb/f28eeb3998fce878b10c1c9a6e7bab83.jpg");
+  height: 78vh;
   background-size: cover;
   background-position: center; }
   #inicio-bar::before {
@@ -298,16 +308,20 @@ footer {
   text-align: center; }
   #champions-bar img, #liga-bar img, #mundial-bar img {
     width: 100vh;
-    height: 43.75rem;
+    height: 28.75rem;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.9);
     border-radius: .625rem; }
   #champions-bar div, #liga-bar div, #mundial-bar div {
     padding: 1.875rem 1.875rem; }
+    #champions-bar div h2, #liga-bar div h2, #mundial-bar div h2 {
+      text-align: center;
+      color: #4c4a4a;
+      padding-top: 3.5rem; }
     #champions-bar div p, #liga-bar div p, #mundial-bar div p {
       color: #22223b87;
       font-size: 1.25rem;
-      padding: 1.25rem;
-      padding-top: 12.5rem; }
+      padding: 1.25rem, 1.25rem, 1.25rem, .25rem;
+      padding-top: 3.5rem; }
 
 .footer-bar {
   margin-top: 1.25rem;
@@ -343,6 +357,7 @@ footer {
     text-transform: uppercase;
     max-width: 9.375rem;
     height: 5rem;
+    border-radius: 50%;
     font-weight: 200; }
   .header-liv .menu-liv ul {
     display: flex;
@@ -365,7 +380,7 @@ footer {
 #inicio-liv {
   padding: 0 3.125rem;
   background-image: url("https://i.pinimg.com/564x/0f/9e/94/0f9e949d0477d8e304e2fe57429ccf02.jpg");
-  height: 100vh;
+  height: 78vh;
   background-size: cover;
   background-position: center; }
   #inicio-liv::before {
@@ -390,16 +405,20 @@ footer {
   text-align: center; }
   #champions-liv img, #liga-liv img, #mundial-liv img {
     width: 100vh;
-    height: 43.75rem;
+    height: 28.75rem;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.9);
     border-radius: .625rem; }
   #champions-liv div, #liga-liv div, #mundial-liv div {
     padding: 1.875rem 1.875rem; }
+    #champions-liv div h2, #liga-liv div h2, #mundial-liv div h2 {
+      text-align: center;
+      color: #4c4a4a;
+      padding-top: 3.5rem; }
     #champions-liv div p, #liga-liv div p, #mundial-liv div p {
       color: #22223b87;
       font-size: 1.25rem;
-      padding: 1.25rem;
-      padding-top: 12.5rem; }
+      padding: 1.25rem, 1.25rem, 1.25rem, .25rem;
+      padding-top: 3.5rem; }
 
 .footer-liv {
   margin-top: 1.25rem;
@@ -435,6 +454,7 @@ footer {
     text-transform: uppercase;
     max-width: 9.375rem;
     height: 5rem;
+    border-radius: 50%;
     font-weight: 200; }
   .header-man .menu-man ul {
     display: flex;
@@ -457,7 +477,7 @@ footer {
 #inicio-man {
   padding: 0 3.125rem;
   background-image: url("https://i.pinimg.com/564x/6a/f4/d5/6af4d5c8c06d61d4ff619ddeaa478772.jpg");
-  height: 100vh;
+  height: 78vh;
   background-size: cover;
   background-position: center;
   object-fit: contain; }
@@ -483,16 +503,20 @@ footer {
   text-align: center; }
   #champions-man img, #liga-man img, #mundial-man img {
     width: 100vh;
-    height: 43.75rem;
+    height: 28.75rem;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.9);
     border-radius: .625rem; }
   #champions-man div, #liga-man div, #mundial-man div {
     padding: 1.875rem 1.875rem; }
+    #champions-man div h2, #liga-man div h2, #mundial-man div h2 {
+      text-align: center;
+      color: #4c4a4a;
+      padding-top: 3.5rem; }
     #champions-man div p, #liga-man div p, #mundial-man div p {
       color: #22223b87;
       font-size: 1.25rem;
-      padding: 1.25rem;
-      padding-top: 12.5rem; }
+      padding: 1.25rem, 1.25rem, 1.25rem, .25rem;
+      padding-top: 3.5rem; }
 
 .footer-man {
   margin-top: 1.25rem;
@@ -528,6 +552,7 @@ footer {
     text-transform: uppercase;
     max-width: 9.375rem;
     height: 5rem;
+    border-radius: 50%;
     font-weight: 200; }
   .header-bay .menu-bay ul {
     display: flex;
@@ -550,7 +575,7 @@ footer {
 #inicio-bay {
   padding: 0 3.125rem;
   background-image: url("https://i.pinimg.com/564x/af/e5/1f/afe51f3bf50dfc423616d5a237925ad5.jpg");
-  height: 100vh;
+  height: 78vh;
   background-size: cover;
   background-position: center; }
   #inicio-bay::before {
@@ -575,16 +600,20 @@ footer {
   text-align: center; }
   #champions-bay img, #liga-bay img, #mundial-bay img {
     width: 100vh;
-    height: 43.75rem;
+    height: 28.75rem;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.9);
     border-radius: .625rem; }
   #champions-bay div, #liga-bay div, #mundial-bay div {
     padding: 1.875rem 1.875rem; }
+    #champions-bay div h2, #liga-bay div h2, #mundial-bay div h2 {
+      text-align: center;
+      color: #4c4a4a;
+      padding-top: 3.5rem; }
     #champions-bay div p, #liga-bay div p, #mundial-bay div p {
       color: #22223b87;
       font-size: 1.25rem;
-      padding: 1.25rem;
-      padding-top: 12.5rem; }
+      padding: 1.25rem, 1.25rem, 1.25rem, .25rem;
+      padding-top: 3.5rem; }
 
 .footer-bay {
   margin-top: 1.25rem;

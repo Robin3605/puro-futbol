@@ -1,7 +1,7 @@
 #banner{
     padding: 0 3.125rem;
-    background-image: url("https://cdn.pixabay.com/photo/2016/05/27/14/33/football-1419954_1280.jpg");
-    height: 95vh;
+    background-image: url("https://cdn.pixabay.com/photo/2014/04/03/11/08/soccer-311838_1280.png");
+    height: 78vh;
     width: auto;
     background-size: cover;
     background-position: center;
@@ -21,16 +21,20 @@
     @include flex(none, none, center, center, none);
     div {
         padding: 1.875rem 1.875rem;
+        h1{
+            text-align: center;
+            color: #4c4a4a;
+        }
         p{
             color: $colorDescripcionImagenes;
             font-size: 1.125rem;
-            padding: 1.25rem;
-            padding-top: 12.5rem;
+            padding: 1.25rem, 1.25rem, 1.25rem, .25rem;
+            padding-top: 2.5rem;
         }
     }
     img{
         width: 100vh;
-        height: 43.75rem;
+        height: 23.75rem;
         box-shadow: 0 0 6px rgba(0, 0, 0, .9);
         border-radius: .625rem;
     }

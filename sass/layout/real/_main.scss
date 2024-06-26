@@ -1,7 +1,7 @@
 #inicio-r {
     padding: 0 3.125rem;
-    background-image: url("https://i.pinimg.com/564x/e1/56/79/e15679c85cd964f85602beb0d38f695d.jpg");
-    height: 100vh;
+    background-image: url("https://i.pinimg.com/564x/28/7e/a4/287ea4c7ef1618f1433cf0df6b40a181.jpg");
+    height: 78vh;
     background-size: cover;
     background-position: center;
     &::before {
@@ -26,19 +26,25 @@
     display: flex;
     justify-content: center;
     text-align: center;
+    
     img{
         width: 100vh;
-        height: 43.75rem;
+        height: 28.75rem;
         box-shadow: 0 0 6px rgba(0, 0, 0, .9);
         border-radius: .625rem;
     }
     div{
-        padding: 1.875rem 1.875rem;
+        padding: 1.875rem 1.875rem ;
+        h2{
+            text-align: center;
+            color: #4c4a4a;
+            padding-top: 3.5rem;
+        }
         p{
             color: #22223b87;
             font-size: 1.25rem; 
-            padding: 1.25rem;
-            padding-top: 12.5rem;
+            padding: 1.25rem, 1.25rem, 1.25rem, .25rem;
+            padding-top: 3.5rem;
         }
     }
 }
