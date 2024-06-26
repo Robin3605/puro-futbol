@@ -59,11 +59,10 @@ header {
 #banner {
   padding: 0 3.125rem;
   background-image: url("https://cdn.pixabay.com/photo/2014/04/03/11/08/soccer-311838_1280.png");
-  height: 78vh;
+  height: 90vh;
   width: auto;
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed; }
+  background-position: center; }
   #banner::before {
     content: '';
     /*background: rgba(77, 77, 92, 0.6);*/
